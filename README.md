@@ -6,17 +6,19 @@
 
 ## Contents
 
-- [Toolkit for SAM/BAM](#toolkit-for-sambam) _6 projects_
-- [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _3 projects_
 - [Toolkit for TSV/CSV](#toolkit-for-tsvcsv) _2 projects_
+- [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _3 projects_
+- [Toolkit for SAM/BAM](#toolkit-for-sambam) _6 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _2 projects_
-- [MHC/HLA](#mhchla) _3 projects_
-- [Read Alignment](#read-alignment) _4 projects_
-- [ChIP-Seq](#chip-seq) _1 projects_
-- [Structural variation](#structural-variation) _3 projects_
-- [Assembler](#assembler) _2 projects_
-- [Variant caller](#variant-caller) _3 projects_
 - [Sequence Alignment](#sequence-alignment) _1 projects_
+- [MHC/HLA](#mhchla) _3 projects_
+- [Assembler](#assembler) _2 projects_
+- [Read Alignment](#read-alignment) _4 projects_
+- [Variant caller](#variant-caller) _3 projects_
+- [Variant annotation](#variant-annotation) _2 projects_
+- [Structural variation](#structural-variation) _3 projects_
+- [ChIP-Seq](#chip-seq) _1 projects_
+- [Others](#others) _3 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -33,6 +35,58 @@
 - 📥&nbsp; Download count from package manager
 - 📦&nbsp; Number of dependent projects
 
+<br>
+
+## Toolkit for TSV/CSV
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/lh3/bedtk">bedtk</a></b> (🥇8 ·  ⭐ 100) - A simple toolset for BED files (warning: CLI may change before bedtk becomes..</summary>
+
+- [GitHub](https://github.com/lh3/bedtk) (👨‍💻 2 · 🔀 9 · ⏱️ 19.08.2020):
+
+	```
+	git clone https://github.com/lh3/bedtk
+	```
+</details>
+<details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
+
+- [GitHub](https://github.com/lh3/tabtk) (🔀 12 · ⏱️ 11.08.2016):
+
+	```
+	git clone https://github.com/lh3/tabtk
+	```
+</details>
+<br>
+
+## Toolkit for FASTA/FASTQ
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥇16 ·  ⭐ 940) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
+
+- [GitHub](https://github.com/OpenGene/fastp) (👨‍💻 17 · 🔀 190 · 📋 290 - 50% open · ⏱️ 14.10.2020):
+
+	```
+	git clone https://github.com/OpenGene/fastp
+	```
+</details>
+<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥉14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
+
+- [GitHub](https://github.com/lh3/seqtk) (👨‍💻 8 · 🔀 230 · 📋 130 - 24% open · ⏱️ 04.12.2020):
+
+	```
+	git clone https://github.com/lh3/seqtk
+	```
+</details>
+<details><summary><b><a href="https://github.com/Genetalks/gtz">gtz</a></b> (🥉11 ·  ⭐ 130) - A high performance and compression ratio compressor for genomic data, powered by..</summary>
+
+- [GitHub](https://github.com/Genetalks/gtz) (👨‍💻 17 · 🔀 36 · 📋 29 - 31% open · ⏱️ 15.12.2020):
+
+	```
+	git clone https://github.com/Genetalks/gtz
+	```
+</details>
 <br>
 
 ## Toolkit for SAM/BAM
@@ -89,58 +143,6 @@
 </details>
 <br>
 
-## Toolkit for FASTA/FASTQ
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥇16 ·  ⭐ 940) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
-
-- [GitHub](https://github.com/OpenGene/fastp) (👨‍💻 17 · 🔀 190 · 📋 290 - 50% open · ⏱️ 14.10.2020):
-
-	```
-	git clone https://github.com/OpenGene/fastp
-	```
-</details>
-<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥉14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
-
-- [GitHub](https://github.com/lh3/seqtk) (👨‍💻 8 · 🔀 230 · 📋 130 - 24% open · ⏱️ 04.12.2020):
-
-	```
-	git clone https://github.com/lh3/seqtk
-	```
-</details>
-<details><summary><b><a href="https://github.com/Genetalks/gtz">gtz</a></b> (🥉11 ·  ⭐ 130) - A high performance and compression ratio compressor for genomic data, powered by..</summary>
-
-- [GitHub](https://github.com/Genetalks/gtz) (👨‍💻 17 · 🔀 36 · 📋 29 - 31% open · ⏱️ 15.12.2020):
-
-	```
-	git clone https://github.com/Genetalks/gtz
-	```
-</details>
-<br>
-
-## Toolkit for TSV/CSV
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/lh3/bedtk">bedtk</a></b> (🥇8 ·  ⭐ 100) - A simple toolset for BED files (warning: CLI may change before bedtk becomes..</summary>
-
-- [GitHub](https://github.com/lh3/bedtk) (👨‍💻 2 · 🔀 9 · ⏱️ 19.08.2020):
-
-	```
-	git clone https://github.com/lh3/bedtk
-	```
-</details>
-<details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
-
-- [GitHub](https://github.com/lh3/tabtk) (🔀 12 · ⏱️ 11.08.2016):
-
-	```
-	git clone https://github.com/lh3/tabtk
-	```
-</details>
-<br>
-
 ## Toolkit for VCF/BCF
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
@@ -159,6 +161,20 @@
 
 	```
 	git clone https://github.com/vcflib/vcflib
+	```
+</details>
+<br>
+
+## Sequence Alignment
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
+
+- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
+
+	```
+	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
 <br>
@@ -189,6 +205,28 @@
 
 	```
 	git clone https://github.com/humanlongevity/HLA
+	```
+</details>
+<br>
+
+## Assembler
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/ruanjue/wtdbg2">wtdbg2</a></b> (🥇14 ·  ⭐ 400) - Redbean: A fuzzy Bruijn graph approach to long noisy reads assembly.</summary>
+
+- [GitHub](https://github.com/ruanjue/wtdbg2) (👨‍💻 7 · 🔀 78 · 📥 1.3K · 📋 210 - 6% open · ⏱️ 11.12.2020):
+
+	```
+	git clone https://github.com/ruanjue/wtdbg2
+	```
+</details>
+<details><summary><b><a href="https://github.com/dzerbino/velvet">velvet</a></b> (🥉12 ·  ⭐ 230 · 💀) - Short read de novo assembler using de Bruijn graphs.</summary>
+
+- [GitHub](https://github.com/dzerbino/velvet) (👨‍💻 15 · 🔀 84 · ⏱️ 15.08.2014):
+
+	```
+	git clone https://github.com/dzerbino/velvet
 	```
 </details>
 <br>
@@ -231,16 +269,54 @@
 </details>
 <br>
 
-## ChIP-Seq
+## Variant caller
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥇15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
+<details><summary><b><a href="https://github.com/broadinstitute/gatk">gatk</a></b> (🥇21 ·  ⭐ 970) - Official code repository for GATK versions 4 and up.</summary>
 
-- [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
+- [GitHub](https://github.com/broadinstitute/gatk) (👨‍💻 110 · 🔀 380 · 📥 330K · 📋 4K - 23% open · ⏱️ 03.02.2021):
 
 	```
-	git clone https://github.com/macs3-project/MACS
+	git clone https://github.com/broadinstitute/gatk
+	```
+</details>
+<details><summary><b><a href="https://github.com/google/deepvariant">deepvariant</a></b> (🥉20 ·  ⭐ 2.2K) - DeepVariant is an analysis pipeline that uses a deep neural network to..</summary>
+
+- [GitHub](https://github.com/google/deepvariant) (👨‍💻 19 · 🔀 520 · 📥 3K · 📋 380 - 0% open · ⏱️ 14.12.2020):
+
+	```
+	git clone https://github.com/google/deepvariant
+	```
+</details>
+<details><summary><b><a href="https://github.com/Illumina/strelka">strelka</a></b> (🥉16 ·  ⭐ 240 · 💤) - Strelka2 germline and somatic small variant caller.</summary>
+
+- [GitHub](https://github.com/Illumina/strelka) (👨‍💻 28 · 🔀 68 · 📥 15K · 📋 190 - 44% open · ⏱️ 06.02.2019):
+
+	```
+	git clone https://github.com/Illumina/strelka
+	```
+</details>
+<br>
+
+## Variant annotation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250 · ➕) - The Ensembl Variant Effect Predictor predicts the functional effects..</summary>
+
+- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 92 · 📋 540 - 13% open · ⏱️ 10.11.2020):
+
+	```
+	git clone https://github.com/Ensembl/ensembl-vep
+	```
+</details>
+<details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 110 · ➕) - </summary>
+
+- [GitHub](https://github.com/pcingola/SnpEff) (👨‍💻 19 · 🔀 51 · 📋 260 - 4% open · ⏱️ 31.01.2021):
+
+	```
+	git clone https://github.com/pcingola/SnpEff
 	```
 </details>
 <br>
@@ -275,67 +351,45 @@
 </details>
 <br>
 
-## Assembler
+## ChIP-Seq
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/ruanjue/wtdbg2">wtdbg2</a></b> (🥇14 ·  ⭐ 400) - Redbean: A fuzzy Bruijn graph approach to long noisy reads assembly.</summary>
+<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥇15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
 
-- [GitHub](https://github.com/ruanjue/wtdbg2) (👨‍💻 7 · 🔀 78 · 📥 1.3K · 📋 210 - 6% open · ⏱️ 11.12.2020):
-
-	```
-	git clone https://github.com/ruanjue/wtdbg2
-	```
-</details>
-<details><summary><b><a href="https://github.com/dzerbino/velvet">velvet</a></b> (🥉12 ·  ⭐ 230 · 💀) - Short read de novo assembler using de Bruijn graphs.</summary>
-
-- [GitHub](https://github.com/dzerbino/velvet) (👨‍💻 15 · 🔀 84 · ⏱️ 15.08.2014):
+- [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
 
 	```
-	git clone https://github.com/dzerbino/velvet
+	git clone https://github.com/macs3-project/MACS
 	```
 </details>
 <br>
 
-## Variant caller
+## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/broadinstitute/gatk">gatk</a></b> (🥇21 ·  ⭐ 970) - Official code repository for GATK versions 4 and up.</summary>
+<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥇13 ·  ⭐ 23 · ➕) - Phenotype driven gene prioritization for HPO.</summary>
 
-- [GitHub](https://github.com/broadinstitute/gatk) (👨‍💻 110 · 🔀 380 · 📥 330K · 📋 4K - 23% open · ⏱️ 03.02.2021):
-
-	```
-	git clone https://github.com/broadinstitute/gatk
-	```
-</details>
-<details><summary><b><a href="https://github.com/google/deepvariant">deepvariant</a></b> (🥉20 ·  ⭐ 2.2K) - DeepVariant is an analysis pipeline that uses a deep neural network to..</summary>
-
-- [GitHub](https://github.com/google/deepvariant) (👨‍💻 19 · 🔀 520 · 📥 3K · 📋 380 - 0% open · ⏱️ 14.12.2020):
+- [GitHub](https://github.com/WGLab/Phen2Gene) (👨‍💻 14 · 🔀 7 · 📥 650 · 📋 8 - 25% open · ⏱️ 12.01.2021):
 
 	```
-	git clone https://github.com/google/deepvariant
+	git clone https://github.com/WGLab/Phen2Gene
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/strelka">strelka</a></b> (🥉16 ·  ⭐ 240 · 💤) - Strelka2 germline and somatic small variant caller.</summary>
+<details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25 · ➕) - Script to convert GTC/BPM files to VCF.</summary>
 
-- [GitHub](https://github.com/Illumina/strelka) (👨‍💻 28 · 🔀 68 · 📥 15K · 📋 190 - 44% open · ⏱️ 06.02.2019):
+- [GitHub](https://github.com/Illumina/GTCtoVCF) (👨‍💻 10 · 🔀 18 · 📋 38 - 26% open · ⏱️ 07.04.2020):
 
 	```
-	git clone https://github.com/Illumina/strelka
+	git clone https://github.com/Illumina/GTCtoVCF
 	```
 </details>
-<br>
+<details><summary><b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 38 · ➕) - The Pharmacogenomic Clinical Annotation Tool.</summary>
 
-## Sequence Alignment
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
-
-- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
+- [GitHub](https://github.com/PharmGKB/PharmCAT) (👨‍💻 15 · 🔀 16 · 📥 1K · 📋 34 - 20% open · ⏱️ 09.09.2020):
 
 	```
-	git clone https://github.com/bbuchfink/diamond
+	git clone https://github.com/PharmGKB/PharmCAT
 	```
 </details>

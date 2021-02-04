@@ -2,7 +2,10 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/etal/cnvkit">cnvkit</a></b> (🥈15 ·  ⭐ 280 · ➕) - Copy number variant detection from targeted DNA sequencing.
-- <b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22 · ➕) - a hidden Markov model to infer simple repeats from genome sequences.
-- <b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110 · ➕) - A bioinformatics software tool for clinical interpretation of genetic..
+- <b><a href="https://github.com/broadinstitute/picard">picard</a></b> (🥇22 ·  ⭐ 640 · ➕) - A set of command line tools (in Java) for manipulating high-throughput..
+- <b><a href="https://github.com/freebayes/freebayes">freebayes</a></b> (🥈20 ·  ⭐ 510 · ➕) - Bayesian haplotype-based genetic polymorphism discovery and genotyping.
+- <b><a href="https://github.com/AstraZeneca-NGS/VarDict">VarDict</a></b> (🥉13 ·  ⭐ 140 · ➕) - VarDict.
+- <b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 160 · ➕) - A deep learning-based tool to identify splice variants.
+- <b><a href="https://github.com/dkoboldt/varscan">varscan</a></b> (🥉10 ·  ⭐ 120 · 💤) - Variant calling and somatic mutation/CNV detection for next-generation..
+- <b><a href="https://github.com/broadinstitute/mutect">mutect</a></b> (🥉10 ·  ⭐ 87 · 💀) - MuTect -- Accurate and sensitive cancer mutation detection.
 

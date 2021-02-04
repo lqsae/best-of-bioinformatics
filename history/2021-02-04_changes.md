@@ -2,9 +2,6 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250 · ➕) - The Ensembl Variant Effect Predictor predicts the functional effects..
-- <b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥇13 ·  ⭐ 23 · ➕) - Phenotype driven gene prioritization for HPO.
-- <b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25 · ➕) - Script to convert GTC/BPM files to VCF.
-- <b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 110 · ➕) - 
-- <b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 38 · ➕) - The Pharmacogenomic Clinical Annotation Tool.
+- <b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 650 · ➕) - bedtools - the swiss army knife for genome arithmetic.
+- <b><a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a></b> (🥈19 ·  ⭐ 310 · ➕) - Tools for handling Unique Molecular Identifiers in NGS data sets.
 

@@ -132,6 +132,14 @@ projects:
     github_id: lgmgeo/AnnotSV
     category: structural-variation
     show: True
+  - name: RepeatHMM
+    github_id: WGLab/RepeatHMM
+    category: structural-variation
+    show: True
+  - name: cnvkit
+    github_id: etal/cnvkit
+    category: structural-variation
+    show: True
   # assembler
   - name: velvet
     github_id: dzerbino/velvet
@@ -179,6 +187,10 @@ projects:
     show: True
   - name: SnpEff
     github_id: pcingola/SnpEff
+    category: variant-annotation
+    show: True
+  - name: InterVar
+    github_id: WGLab/InterVar
     category: variant-annotation
     show: True
   # other

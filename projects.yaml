@@ -1,19 +1,167 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  project_inactive_months: 12
+  project_dead_months: 36
+  project_new_months: 12
+  require_license: False
+  hide_project_license: True
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
-
-labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - category: "sam-bam"
+    title: "Toolkit for SAM/BAM"
+  - category: "fasta-fastq"
+    title: "Toolkit for FASTA/FASTQ"
+  - category: "tsv-csv"
+    title: "Toolkit for TSV/CSV"
+  - category: "vcf-bcf"
+    title: "Toolkit for VCF/BCF"
+  - category: "mhc-hla"
+    title: "MHC/HLA"
+  - category: "read-alignment"
+    title: "Read Alignment"
+  - category: "chip-seq"
+    title: "ChIP-Seq"
+  - category: "structural-variation"
+    title: "Structural variation"
+  - category: "assembler"
+    title: "Assembler"
+  - category: "variant-caller"
+    title: "Variant caller"
+  - category: "sequence-alignment"
+    title: "Sequence Alignment"
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  # sam-bam
+  - name: sambamba
+    github_id: biod/sambamba
+    category: sam-bam
+    show: True
+  - name: samtools
+    github_id: samtools/samtools
+    category: sam-bam
+    show: True
+  - name: htslib
+    github_id: samtools/htslib
+    category: sam-bam
+    show: True
+  - name: hts-specs
+    github_id: samtools/hts-specs
+    category: sam-bam
+    show: True
+  - name: pysam
+    github_id: pysam-developers/pysam
+    category: sam-bam
+    show: True
+  - name: mosdepth
+    github_id: brentp/mosdepth
+    category: sam-bam
+    show: True
+  # fasta-fastq
+  - name: seqtk
+    github_id: lh3/seqtk
+    category: fasta-fastq
+    show: True  
+  - name: fastp
+    github_id: OpenGene/fastp
+    category: fasta-fastq
+    show: True  
+  - name: gtz
+    github_id: Genetalks/gtz
+    category: fasta-fastq
+    show: True  
+  # tsv-csv
+  - name: tabtk
+    github_id: lh3/tabtk
+    category: tsv-csv
+    show: True  
+  - name: bedtk
+    github_id: lh3/bedtk
+    category: tsv-csv
+    show: True
+  # vcf-bcf
+  - name: bcftools
+    github_id: samtools/bcftools
+    category: vcf-bcf
+    show: True
+  - name: vcflib
+    github_id: vcflib/vcflib
+    category: vcf-bcf
+    show: True
+  # read-alignment  
+  - name: minimap2
+    github_id: lh3/minimap2
+    category: read-alignment
+    show: True  
+  - name: bwa
+    github_id: lh3/bwa
+    category: read-alignment
+    show: True  
+  - name: bowtie2
+    github_id: BenLangmead/bowtie2
+    category: read-alignment
+    show: True  
+  - name: bwa-mem2
+    github_id: bwa-mem2/bwa-mem2
+    category: read-alignment
+    show: True  
+  # chip-seq 
+  - name: MACS
+    github_id: macs3-project/MACS
+    category: chip-seq
+    show: True  
+  # structural-variation
+  - name: Sniffles
+    github_id: fritzsedlazeck/Sniffles
+    category: structural-variation
+    show: True  
+  - name: manta
+    github_id: Illumina/manta
+    category: structural-variation
+    show: True  
+  - name: AnnotSV
+    github_id: lgmgeo/AnnotSV
+    category: structural-variation
+    show: True  
+  # assembler
+  - name: velvet
+    github_id: dzerbino/velvet
+    category: assembler
+    show: True  
+  - name: wtdbg2
+    github_id: ruanjue/wtdbg2
+    category: assembler
+    show: True  
+  # mhc-hla
+  - name: mhcflurry
+    github_id: openvax/mhcflurry
+    category: mhc-hla
+    show: True  
+  - name: OptiType
+    github_id: FRED-2/OptiType
+    category: mhc-hla
+    show: True  
+  - name: HLA
+    github_id: humanlongevity/HLA
+    category: mhc-hla
+    show: True  
+  # variant-caller
+  - name: deepvariant
+    github_id: google/deepvariant
+    category: variant-caller
+    show: True  
+  - name: gatk
+    github_id: broadinstitute/gatk
+    category: variant-caller
+    show: True  
+  - name: strelka
+    github_id: Illumina/strelka
+    category: variant-caller
+    show: True  
+  # sequence-alignment
+  - name: diamond
+    github_id: bbuchfink/diamond
+    category: sequence-alignment
+    show: True  
+
+  # other

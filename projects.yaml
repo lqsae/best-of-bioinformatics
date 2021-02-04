@@ -99,6 +99,14 @@ projects:
     github_id: lh3/minimap2
     category: read-alignment
     show: True
+  - name: pbmm2
+    github_id: PacificBiosciences/pbmm2
+    category: read-alignment
+    show: True
+  - name: blasr
+    github_id: PacificBiosciences/blasr
+    category: read-alignment
+    show: True
   - name: bwa
     github_id: lh3/bwa
     category: read-alignment
@@ -114,6 +122,10 @@ projects:
   # structural-variation
   - name: Sniffles
     github_id: fritzsedlazeck/Sniffles
+    category: structural-variation
+    show: True
+  - name: pbsv
+    github_id: PacificBiosciences/pbsv
     category: structural-variation
     show: True
   - name: manta
@@ -220,3 +232,7 @@ projects:
   - name: MACS
     github_id: macs3-project/MACS
     show: True
+  - name: RepeatMasker
+    github_id: rmhubley/RepeatMasker
+    show: True
+  

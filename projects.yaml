@@ -9,10 +9,10 @@ configuration:
 
 categories:
   # toolkit
-  - category: "tsv-csv"
-    title: "Toolkit for TSV/CSV"
   - category: "fasta-fastq"
     title: "Toolkit for FASTA/FASTQ"
+  - category: "bed-gtf-gff"
+    title: "Toolkit for BED/GTF/GFF"
   - category: "sam-bam"
     title: "Toolkit for SAM/BAM"
   - category: "vcf-bcf"
@@ -37,6 +37,15 @@ categories:
     title: "ChIP-Seq"
 
 projects:
+  # bed-gtf-gff
+  - name: bedtk
+    github_id: lh3/bedtk
+    category: bed-gtf-gff
+    show: True
+  - name: bedtools2
+    github_id: arq5x/bedtools2
+    category: bed-gtf-gff
+    show: True
   # sam-bam
   - name: sambamba
     github_id: biod/sambamba
@@ -62,6 +71,10 @@ projects:
     github_id: brentp/mosdepth
     category: sam-bam
     show: True
+  - name: UMI-tools
+    github_id: CGATOxford/UMI-tools
+    category: sam-bam
+    show: True
   # fasta-fastq
   - name: seqtk
     github_id: lh3/seqtk
@@ -74,15 +87,6 @@ projects:
   - name: gtz
     github_id: Genetalks/gtz
     category: fasta-fastq
-    show: True
-  # tsv-csv
-  - name: tabtk
-    github_id: lh3/tabtk
-    category: tsv-csv
-    show: True
-  - name: bedtk
-    github_id: lh3/bedtk
-    category: tsv-csv
     show: True
   # vcf-bcf
   - name: bcftools
@@ -187,4 +191,7 @@ projects:
   - name: Phen2Gene
     github_id: WGLab/Phen2Gene
     category: phenotype
+    show: True
+  - name: tabtk
+    github_id: lh3/tabtk
     show: True

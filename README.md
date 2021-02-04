@@ -8,15 +8,15 @@
 
 - [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _3 projects_
 - [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
-- [Toolkit for SAM/BAM](#toolkit-for-sambam) _7 projects_
+- [Toolkit for SAM/BAM](#toolkit-for-sambam) _8 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _2 projects_
 - [Sequence Alignment](#sequence-alignment) _1 projects_
 - [MHC/HLA](#mhchla) _3 projects_
 - [Assembler](#assembler) _2 projects_
 - [Read Alignment](#read-alignment) _4 projects_
-- [Variant caller](#variant-caller) _3 projects_
-- [Variant annotation](#variant-annotation) _3 projects_
-- [Structural variation](#structural-variation) _5 projects_
+- [Variant Caller](#variant-caller) _7 projects_
+- [Variant Annotation](#variant-annotation) _4 projects_
+- [Structural Variation](#structural-variation) _5 projects_
 - [ChIP-Seq](#chip-seq) _1 projects_
 - [Others](#others) _4 projects_
 
@@ -93,7 +93,15 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/samtools/samtools">samtools</a></b> (🥇20 ·  ⭐ 1K) - Tools (written in C using htslib) for manipulating next-generation sequencing..</summary>
+<details><summary><b><a href="https://github.com/broadinstitute/picard">picard</a></b> (🥇22 ·  ⭐ 640 · ➕) - A set of command line tools (in Java) for manipulating high-throughput..</summary>
+
+- [GitHub](https://github.com/broadinstitute/picard) (👨‍💻 140 · 🔀 290 · 📥 160K · 📋 630 - 26% open · ⏱️ 03.02.2021):
+
+	```
+	git clone https://github.com/broadinstitute/picard
+	```
+</details>
+<details><summary><b><a href="https://github.com/samtools/samtools">samtools</a></b> (🥈20 ·  ⭐ 1K) - Tools (written in C using htslib) for manipulating next-generation sequencing..</summary>
 
 - [GitHub](https://github.com/samtools/samtools) (👨‍💻 77 · 🔀 440 · 📥 780K · 📋 830 - 20% open · ⏱️ 03.02.2021):
 
@@ -277,7 +285,7 @@
 </details>
 <br>
 
-## Variant caller
+## Variant Caller
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -289,12 +297,20 @@
 	git clone https://github.com/broadinstitute/gatk
 	```
 </details>
-<details><summary><b><a href="https://github.com/google/deepvariant">deepvariant</a></b> (🥉20 ·  ⭐ 2.2K) - DeepVariant is an analysis pipeline that uses a deep neural network to..</summary>
+<details><summary><b><a href="https://github.com/google/deepvariant">deepvariant</a></b> (🥈20 ·  ⭐ 2.2K) - DeepVariant is an analysis pipeline that uses a deep neural network to..</summary>
 
 - [GitHub](https://github.com/google/deepvariant) (👨‍💻 19 · 🔀 520 · 📥 3K · 📋 380 - 0% open · ⏱️ 14.12.2020):
 
 	```
 	git clone https://github.com/google/deepvariant
+	```
+</details>
+<details><summary><b><a href="https://github.com/freebayes/freebayes">freebayes</a></b> (🥈20 ·  ⭐ 510 · ➕) - Bayesian haplotype-based genetic polymorphism discovery and genotyping.</summary>
+
+- [GitHub](https://github.com/freebayes/freebayes) (👨‍💻 42 · 🔀 210 · 📥 3.7K · 📋 570 - 0% open · ⏱️ 30.01.2021):
+
+	```
+	git clone https://github.com/freebayes/freebayes
 	```
 </details>
 <details><summary><b><a href="https://github.com/Illumina/strelka">strelka</a></b> (🥉16 ·  ⭐ 240 · 💤) - Strelka2 germline and somatic small variant caller.</summary>
@@ -305,18 +321,50 @@
 	git clone https://github.com/Illumina/strelka
 	```
 </details>
+<details><summary><b><a href="https://github.com/AstraZeneca-NGS/VarDict">VarDict</a></b> (🥉13 ·  ⭐ 140 · ➕) - VarDict.</summary>
+
+- [GitHub](https://github.com/AstraZeneca-NGS/VarDict) (👨‍💻 21 · 🔀 48 · 📋 92 - 15% open · ⏱️ 25.01.2021):
+
+	```
+	git clone https://github.com/AstraZeneca-NGS/VarDict
+	```
+</details>
+<details><summary><b><a href="https://github.com/dkoboldt/varscan">varscan</a></b> (🥉10 ·  ⭐ 120 · 💤) - Variant calling and somatic mutation/CNV detection for next-generation..</summary>
+
+- [GitHub](https://github.com/dkoboldt/varscan) (👨‍💻 2 · 🔀 29 · 📥 12K · 📋 60 - 90% open · ⏱️ 25.07.2019):
+
+	```
+	git clone https://github.com/dkoboldt/varscan
+	```
+</details>
+<details><summary><b><a href="https://github.com/broadinstitute/mutect">mutect</a></b> (🥉10 ·  ⭐ 87 · 💀) - MuTect -- Accurate and sensitive cancer mutation detection.</summary>
+
+- [GitHub](https://github.com/broadinstitute/mutect) (👨‍💻 4 · 🔀 40 · 📥 5.8K · 📋 9 - 88% open · ⏱️ 01.06.2014):
+
+	```
+	git clone https://github.com/broadinstitute/mutect
+	```
+</details>
 <br>
 
-## Variant annotation
+## Variant Annotation
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
 <details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250) - The Ensembl Variant Effect Predictor predicts the functional effects of..</summary>
 
-- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 92 · 📋 540 - 13% open · ⏱️ 10.11.2020):
+- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 93 · 📋 540 - 13% open · ⏱️ 10.11.2020):
 
 	```
 	git clone https://github.com/Ensembl/ensembl-vep
+	```
+</details>
+<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 160 · ➕) - A deep learning-based tool to identify splice variants.</summary>
+
+- [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · 📋 60 - 1% open · ⏱️ 15.05.2020):
+
+	```
+	git clone https://github.com/Illumina/SpliceAI
 	```
 </details>
 <details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 110) - </summary>
@@ -327,7 +375,7 @@
 	git clone https://github.com/pcingola/SnpEff
 	```
 </details>
-<details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110 · ➕) - A bioinformatics software tool for clinical interpretation of genetic..</summary>
+<details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110) - A bioinformatics software tool for clinical interpretation of genetic variants..</summary>
 
 - [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 61 · 📋 52 - 48% open · ⏱️ 25.01.2021):
 
@@ -337,7 +385,7 @@
 </details>
 <br>
 
-## Structural variation
+## Structural Variation
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -349,7 +397,7 @@
 	git clone https://github.com/Illumina/manta
 	```
 </details>
-<details><summary><b><a href="https://github.com/etal/cnvkit">cnvkit</a></b> (🥈15 ·  ⭐ 280 · ➕) - Copy number variant detection from targeted DNA sequencing.</summary>
+<details><summary><b><a href="https://github.com/etal/cnvkit">cnvkit</a></b> (🥈15 ·  ⭐ 280) - Copy number variant detection from targeted DNA sequencing.</summary>
 
 - [GitHub](https://github.com/etal/cnvkit) (👨‍💻 22 · 🔀 110 · 📋 500 - 28% open · ⏱️ 14.12.2020):
 
@@ -365,7 +413,7 @@
 	git clone https://github.com/fritzsedlazeck/Sniffles
 	```
 </details>
-<details><summary><b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22 · ➕) - a hidden Markov model to infer simple repeats from genome sequences.</summary>
+<details><summary><b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22) - a hidden Markov model to infer simple repeats from genome sequences.</summary>
 
 - [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 9 · 🔀 12 · 📥 36 · 📋 33 - 12% open · ⏱️ 30.12.2020):
 

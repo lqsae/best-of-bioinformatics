@@ -10,15 +10,13 @@
 - [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
 - [Toolkit for SAM/BAM](#toolkit-for-sambam) _8 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _2 projects_
-- [Sequence Alignment](#sequence-alignment) _1 projects_
 - [MHC/HLA](#mhchla) _3 projects_
 - [Assembler](#assembler) _2 projects_
 - [Read Alignment](#read-alignment) _4 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _5 projects_
-- [ChIP-Seq](#chip-seq) _1 projects_
-- [Others](#others) _4 projects_
+- [Others](#others) _6 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -93,7 +91,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/broadinstitute/picard">picard</a></b> (🥇22 ·  ⭐ 640 · ➕) - A set of command line tools (in Java) for manipulating high-throughput..</summary>
+<details><summary><b><a href="https://github.com/broadinstitute/picard">picard</a></b> (🥇22 ·  ⭐ 640) - A set of command line tools (in Java) for manipulating high-throughput..</summary>
 
 - [GitHub](https://github.com/broadinstitute/picard) (👨‍💻 140 · 🔀 290 · 📥 160K · 📋 630 - 26% open · ⏱️ 03.02.2021):
 
@@ -177,20 +175,6 @@
 
 	```
 	git clone https://github.com/vcflib/vcflib
-	```
-</details>
-<br>
-
-## Sequence Alignment
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
-
-- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
-
-	```
-	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
 <br>
@@ -305,7 +289,7 @@
 	git clone https://github.com/google/deepvariant
 	```
 </details>
-<details><summary><b><a href="https://github.com/freebayes/freebayes">freebayes</a></b> (🥈20 ·  ⭐ 510 · ➕) - Bayesian haplotype-based genetic polymorphism discovery and genotyping.</summary>
+<details><summary><b><a href="https://github.com/freebayes/freebayes">freebayes</a></b> (🥈20 ·  ⭐ 510) - Bayesian haplotype-based genetic polymorphism discovery and genotyping.</summary>
 
 - [GitHub](https://github.com/freebayes/freebayes) (👨‍💻 42 · 🔀 210 · 📥 3.7K · 📋 570 - 0% open · ⏱️ 30.01.2021):
 
@@ -321,7 +305,7 @@
 	git clone https://github.com/Illumina/strelka
 	```
 </details>
-<details><summary><b><a href="https://github.com/AstraZeneca-NGS/VarDict">VarDict</a></b> (🥉13 ·  ⭐ 140 · ➕) - VarDict.</summary>
+<details><summary><b><a href="https://github.com/AstraZeneca-NGS/VarDict">VarDict</a></b> (🥉13 ·  ⭐ 140) - VarDict.</summary>
 
 - [GitHub](https://github.com/AstraZeneca-NGS/VarDict) (👨‍💻 21 · 🔀 48 · 📋 92 - 15% open · ⏱️ 25.01.2021):
 
@@ -359,7 +343,7 @@
 	git clone https://github.com/Ensembl/ensembl-vep
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 160 · ➕) - A deep learning-based tool to identify splice variants.</summary>
+<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 160) - A deep learning-based tool to identify splice variants.</summary>
 
 - [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · 📋 60 - 1% open · ⏱️ 15.05.2020):
 
@@ -431,11 +415,19 @@
 </details>
 <br>
 
-## ChIP-Seq
+## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥇15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
+<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
+
+- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
+
+	```
+	git clone https://github.com/bbuchfink/diamond
+	```
+</details>
+<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥈15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
 
 - [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
 
@@ -443,13 +435,7 @@
 	git clone https://github.com/macs3-project/MACS
 	```
 </details>
-<br>
-
-## Others
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥇13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
+<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥈13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
 
 - [GitHub](https://github.com/WGLab/Phen2Gene) (👨‍💻 14 · 🔀 7 · 📥 650 · 📋 8 - 25% open · ⏱️ 12.01.2021):
 
@@ -457,7 +443,7 @@
 	git clone https://github.com/WGLab/Phen2Gene
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥈11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>
+<details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>
 
 - [GitHub](https://github.com/Illumina/GTCtoVCF) (👨‍💻 10 · 🔀 18 · 📋 38 - 26% open · ⏱️ 07.04.2020):
 

@@ -12,11 +12,11 @@
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _2 projects_
 - [MHC/HLA](#mhchla) _3 projects_
 - [Assembler](#assembler) _2 projects_
-- [Read Alignment](#read-alignment) _4 projects_
+- [Read Alignment](#read-alignment) _6 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
-- [Structural Variation](#structural-variation) _5 projects_
-- [Others](#others) _6 projects_
+- [Structural Variation](#structural-variation) _6 projects_
+- [Others](#others) _7 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -251,7 +251,7 @@
 	git clone https://github.com/BenLangmead/bowtie2
 	```
 </details>
-<details><summary><b><a href="https://github.com/lh3/bwa">bwa</a></b> (🥉18 ·  ⭐ 950) - Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read..</summary>
+<details><summary><b><a href="https://github.com/lh3/bwa">bwa</a></b> (🥈18 ·  ⭐ 950) - Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read..</summary>
 
 - [GitHub](https://github.com/lh3/bwa) (👨‍💻 31 · 🔀 430 · 📥 50K · 📋 200 - 60% open · ⏱️ 02.07.2020):
 
@@ -265,6 +265,22 @@
 
 	```
 	git clone https://github.com/bwa-mem2/bwa-mem2
+	```
+</details>
+<details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉13 ·  ⭐ 120 · ➕) - BLASR: The PacBio long read aligner.</summary>
+
+- [GitHub](https://github.com/PacificBiosciences/blasr) (👨‍💻 19 · 🔀 76 · ⏱️ 16.12.2020):
+
+	```
+	git clone https://github.com/PacificBiosciences/blasr
+	```
+</details>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbmm2">pbmm2</a></b> (🥉10 ·  ⭐ 75 · ➕) - A minimap2 frontend for PacBio native data formats.</summary>
+
+- [GitHub](https://github.com/PacificBiosciences/pbmm2) (👨‍💻 10 · 🔀 15 · ⏱️ 22.09.2020):
+
+	```
+	git clone https://github.com/PacificBiosciences/pbmm2
 	```
 </details>
 <br>
@@ -389,7 +405,7 @@
 	git clone https://github.com/etal/cnvkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/fritzsedlazeck/Sniffles">Sniffles</a></b> (🥉14 ·  ⭐ 240) - Structural variation caller using third generation sequencing.</summary>
+<details><summary><b><a href="https://github.com/fritzsedlazeck/Sniffles">Sniffles</a></b> (🥈14 ·  ⭐ 240) - Structural variation caller using third generation sequencing.</summary>
 
 - [GitHub](https://github.com/fritzsedlazeck/Sniffles) (👨‍💻 10 · 🔀 45 · 📋 240 - 17% open · ⏱️ 18.12.2020):
 
@@ -403,6 +419,14 @@
 
 	```
 	git clone https://github.com/WGLab/RepeatHMM
+	```
+</details>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbsv">pbsv</a></b> (🥉11 ·  ⭐ 48 · ➕) - pbsv - PacBio structural variant (SV) calling and analysis tools.</summary>
+
+- [GitHub](https://github.com/PacificBiosciences/pbsv) (👨‍💻 4 · 🔀 8 · ⏱️ 15.10.2020):
+
+	```
+	git clone https://github.com/PacificBiosciences/pbsv
 	```
 </details>
 <details><summary><b><a href="https://github.com/lgmgeo/AnnotSV">AnnotSV</a></b> (🥉8 ·  ⭐ 57) - Annotation and Ranking of Structural Variation.</summary>
@@ -457,6 +481,14 @@
 
 	```
 	git clone https://github.com/PharmGKB/PharmCAT
+	```
+</details>
+<details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 69 · ➕) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
+
+- [GitHub](https://github.com/rmhubley/RepeatMasker) (👨‍💻 3 · 🔀 25 · 📋 86 - 31% open · ⏱️ 02.09.2020):
+
+	```
+	git clone https://github.com/rmhubley/RepeatMasker
 	```
 </details>
 <details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>

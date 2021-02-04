@@ -28,11 +28,11 @@ categories:
   - category: "read-alignment"
     title: "Read Alignment"
   - category: "variant-caller"
-    title: "Variant caller"
+    title: "Variant Caller"
   - category: "variant-annotation"
-    title: "Variant annotation"
+    title: "Variant Annotation"
   - category: "structural-variation"
-    title: "Structural variation"
+    title: "Structural Variation"
   - category: "chip-seq"
     title: "ChIP-Seq"
 
@@ -49,6 +49,10 @@ projects:
   # sam-bam
   - name: sambamba
     github_id: biod/sambamba
+    category: sam-bam
+    show: True
+  - name: picard
+    github_id: broadinstitute/picard
     category: sam-bam
     show: True
   - name: samtools
@@ -175,6 +179,22 @@ projects:
     github_id: Illumina/strelka
     category: variant-caller
     show: True
+  - name: freebayes
+    github_id: freebayes/freebayes
+    category: variant-caller
+    show: True
+  - name: mutect
+    github_id: broadinstitute/mutect
+    category: variant-caller
+    show: True
+  - name: varscan
+    github_id: dkoboldt/varscan
+    category: variant-caller
+    show: True
+  - name: VarDict
+    github_id: AstraZeneca-NGS/VarDict
+    category: variant-caller
+    show: True
   # sequence-alignment
   - name: diamond
     github_id: bbuchfink/diamond
@@ -191,6 +211,10 @@ projects:
     show: True
   - name: InterVar
     github_id: WGLab/InterVar
+    category: variant-annotation
+    show: True
+  - name: SpliceAI
+    github_id: Illumina/SpliceAI
     category: variant-annotation
     show: True
   # other

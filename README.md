@@ -109,7 +109,7 @@
 </details>
 <details><summary><b><a href="https://github.com/samtools/htslib">htslib</a></b> (🥈19 ·  ⭐ 520) - C library for high-throughput sequencing data formats.</summary>
 
-- [GitHub](https://github.com/samtools/htslib) (👨‍💻 68 · 🔀 340 · 📥 370K · 📋 500 - 23% open · ⏱️ 03.02.2021):
+- [GitHub](https://github.com/samtools/htslib) (👨‍💻 68 · 🔀 340 · 📥 370K · 📋 500 - 23% open · ⏱️ 04.02.2021):
 
 	```
 	git clone https://github.com/samtools/htslib
@@ -149,7 +149,7 @@
 </details>
 <details><summary><b><a href="https://github.com/samtools/hts-specs">hts-specs</a></b> (🥉12 ·  ⭐ 420) - Specifications of SAM/BAM and related high-throughput sequencing file formats.</summary>
 
-- [GitHub](https://github.com/samtools/hts-specs) (👨‍💻 50 · 🔀 140 · 📋 270 - 44% open · ⏱️ 01.02.2021):
+- [GitHub](https://github.com/samtools/hts-specs) (👨‍💻 50 · 🔀 140 · 📋 270 - 44% open · ⏱️ 04.02.2021):
 
 	```
 	git clone https://github.com/samtools/hts-specs
@@ -163,7 +163,7 @@
 
 <details><summary><b><a href="https://github.com/samtools/bcftools">bcftools</a></b> (🥇19 ·  ⭐ 360) - This is the official development repository for BCFtools. To compile, the..</summary>
 
-- [GitHub](https://github.com/samtools/bcftools) (👨‍💻 45 · 🔀 160 · 📥 280K · 📋 1.2K - 15% open · ⏱️ 03.02.2021):
+- [GitHub](https://github.com/samtools/bcftools) (👨‍💻 45 · 🔀 160 · 📥 280K · 📋 1.2K - 16% open · ⏱️ 03.02.2021):
 
 	```
 	git clone https://github.com/samtools/bcftools
@@ -171,7 +171,7 @@
 </details>
 <details><summary><b><a href="https://github.com/vcflib/vcflib">vcflib</a></b> (🥉18 ·  ⭐ 410) - C++ library and cmdline tools for parsing and manipulating VCF files.</summary>
 
-- [GitHub](https://github.com/vcflib/vcflib) (👨‍💻 66 · 🔀 180 · 📥 720 · 📋 210 - 9% open · ⏱️ 30.01.2021):
+- [GitHub](https://github.com/vcflib/vcflib) (👨‍💻 66 · 🔀 180 · 📥 730 · 📋 210 - 9% open · ⏱️ 30.01.2021):
 
 	```
 	git clone https://github.com/vcflib/vcflib
@@ -185,7 +185,7 @@
 
 <details><summary><b><a href="https://github.com/openvax/mhcflurry">mhcflurry</a></b> (🥇19 ·  ⭐ 110) - Peptide-MHC I binding affinity prediction.</summary>
 
-- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 32 · 📥 43K · 📦 14 · 📋 100 - 1% open · ⏱️ 07.01.2021):
+- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 32 · 📥 43K · 📦 14 · 📋 100 - 2% open · ⏱️ 07.01.2021):
 
 	```
 	git clone https://github.com/openvax/mhcflurry
@@ -267,7 +267,7 @@
 	git clone https://github.com/bwa-mem2/bwa-mem2
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉13 ·  ⭐ 120 · ➕) - BLASR: The PacBio long read aligner.</summary>
+<details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉13 ·  ⭐ 120) - BLASR: The PacBio long read aligner.</summary>
 
 - [GitHub](https://github.com/PacificBiosciences/blasr) (👨‍💻 19 · 🔀 76 · ⏱️ 16.12.2020):
 
@@ -275,7 +275,7 @@
 	git clone https://github.com/PacificBiosciences/blasr
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/pbmm2">pbmm2</a></b> (🥉10 ·  ⭐ 75 · ➕) - A minimap2 frontend for PacBio native data formats.</summary>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbmm2">pbmm2</a></b> (🥉10 ·  ⭐ 75) - A minimap2 frontend for PacBio native data formats.</summary>
 
 - [GitHub](https://github.com/PacificBiosciences/pbmm2) (👨‍💻 10 · 🔀 15 · ⏱️ 22.09.2020):
 
@@ -421,7 +421,7 @@
 	git clone https://github.com/WGLab/RepeatHMM
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/pbsv">pbsv</a></b> (🥉11 ·  ⭐ 48 · ➕) - pbsv - PacBio structural variant (SV) calling and analysis tools.</summary>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbsv">pbsv</a></b> (🥉11 ·  ⭐ 48) - pbsv - PacBio structural variant (SV) calling and analysis tools.</summary>
 
 - [GitHub](https://github.com/PacificBiosciences/pbsv) (👨‍💻 4 · 🔀 8 · ⏱️ 15.10.2020):
 
@@ -431,7 +431,7 @@
 </details>
 <details><summary><b><a href="https://github.com/lgmgeo/AnnotSV">AnnotSV</a></b> (🥉8 ·  ⭐ 57) - Annotation and Ranking of Structural Variation.</summary>
 
-- [GitHub](https://github.com/lgmgeo/AnnotSV) (👨‍💻 2 · 🔀 11 · 📋 35 - 5% open · ⏱️ 19.01.2021):
+- [GitHub](https://github.com/lgmgeo/AnnotSV) (👨‍💻 2 · 🔀 11 · 📋 36 - 8% open · ⏱️ 19.01.2021):
 
 	```
 	git clone https://github.com/lgmgeo/AnnotSV
@@ -483,7 +483,7 @@
 	git clone https://github.com/PharmGKB/PharmCAT
 	```
 </details>
-<details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 69 · ➕) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
+<details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 69) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
 
 - [GitHub](https://github.com/rmhubley/RepeatMasker) (👨‍💻 3 · 🔀 25 · 📋 86 - 31% open · ⏱️ 02.09.2020):
 

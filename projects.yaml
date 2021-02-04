@@ -8,7 +8,6 @@ configuration:
   hide_project_license: True
 
 categories:
-  # toolkit
   - category: "fasta-fastq"
     title: "Toolkit for FASTA/FASTQ"
   - category: "bed-gtf-gff"
@@ -17,12 +16,8 @@ categories:
     title: "Toolkit for SAM/BAM"
   - category: "vcf-bcf"
     title: "Toolkit for VCF/BCF"
-  # sequence
-  - category: "sequence-alignment"
-    title: "Sequence Alignment"
   - category: "mhc-hla"
     title: "MHC/HLA"
-  # ngs
   - category: "assembler"
     title: "Assembler"
   - category: "read-alignment"
@@ -33,8 +28,6 @@ categories:
     title: "Variant Annotation"
   - category: "structural-variation"
     title: "Structural Variation"
-  - category: "chip-seq"
-    title: "ChIP-Seq"
 
 projects:
   # bed-gtf-gff
@@ -118,11 +111,6 @@ projects:
     github_id: bwa-mem2/bwa-mem2
     category: read-alignment
     show: True
-  # chip-seq
-  - name: MACS
-    github_id: macs3-project/MACS
-    category: chip-seq
-    show: True
   # structural-variation
   - name: Sniffles
     github_id: fritzsedlazeck/Sniffles
@@ -195,11 +183,6 @@ projects:
     github_id: AstraZeneca-NGS/VarDict
     category: variant-caller
     show: True
-  # sequence-alignment
-  - name: diamond
-    github_id: bbuchfink/diamond
-    category: sequence-alignment
-    show: True
   # variant-annotation
   - name: ensembl-vep
     github_id: Ensembl/ensembl-vep
@@ -230,4 +213,10 @@ projects:
     show: True
   - name: tabtk
     github_id: lh3/tabtk
+    show: True
+  - name: diamond
+    github_id: bbuchfink/diamond
+    show: True
+  - name: MACS
+    github_id: macs3-project/MACS
     show: True

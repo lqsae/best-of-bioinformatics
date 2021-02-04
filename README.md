@@ -6,9 +6,9 @@
 
 ## Contents
 
-- [Toolkit for TSV/CSV](#toolkit-for-tsvcsv) _2 projects_
 - [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _3 projects_
-- [Toolkit for SAM/BAM](#toolkit-for-sambam) _6 projects_
+- [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
+- [Toolkit for SAM/BAM](#toolkit-for-sambam) _7 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _2 projects_
 - [Sequence Alignment](#sequence-alignment) _1 projects_
 - [MHC/HLA](#mhchla) _3 projects_
@@ -18,7 +18,7 @@
 - [Variant annotation](#variant-annotation) _2 projects_
 - [Structural variation](#structural-variation) _3 projects_
 - [ChIP-Seq](#chip-seq) _1 projects_
-- [Others](#others) _3 projects_
+- [Others](#others) _4 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -35,28 +35,6 @@
 - 📥&nbsp; Download count from package manager
 - 📦&nbsp; Number of dependent projects
 
-<br>
-
-## Toolkit for TSV/CSV
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/lh3/bedtk">bedtk</a></b> (🥇8 ·  ⭐ 100) - A simple toolset for BED files (warning: CLI may change before bedtk becomes..</summary>
-
-- [GitHub](https://github.com/lh3/bedtk) (👨‍💻 2 · 🔀 9 · ⏱️ 19.08.2020):
-
-	```
-	git clone https://github.com/lh3/bedtk
-	```
-</details>
-<details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
-
-- [GitHub](https://github.com/lh3/tabtk) (🔀 12 · ⏱️ 11.08.2016):
-
-	```
-	git clone https://github.com/lh3/tabtk
-	```
-</details>
 <br>
 
 ## Toolkit for FASTA/FASTQ
@@ -89,6 +67,28 @@
 </details>
 <br>
 
+## Toolkit for BED/GTF/GFF
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 650 · ➕) - bedtools - the swiss army knife for genome arithmetic.</summary>
+
+- [GitHub](https://github.com/arq5x/bedtools2) (👨‍💻 85 · 🔀 240 · 📥 360K · 📋 670 - 20% open · ⏱️ 29.01.2021):
+
+	```
+	git clone https://github.com/arq5x/bedtools2
+	```
+</details>
+<details><summary><b><a href="https://github.com/lh3/bedtk">bedtk</a></b> (🥉8 ·  ⭐ 100) - A simple toolset for BED files (warning: CLI may change before bedtk becomes..</summary>
+
+- [GitHub](https://github.com/lh3/bedtk) (👨‍💻 2 · 🔀 9 · ⏱️ 19.08.2020):
+
+	```
+	git clone https://github.com/lh3/bedtk
+	```
+</details>
+<br>
+
 ## Toolkit for SAM/BAM
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
@@ -115,6 +115,14 @@
 
 	```
 	git clone https://github.com/biod/sambamba
+	```
+</details>
+<details><summary><b><a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a></b> (🥈19 ·  ⭐ 310 · ➕) - Tools for handling Unique Molecular Identifiers in NGS data sets.</summary>
+
+- [GitHub](https://github.com/CGATOxford/UMI-tools) (👨‍💻 29 · 🔀 160 · 📥 3.2K · 📋 320 - 8% open · ⏱️ 01.02.2021):
+
+	```
+	git clone https://github.com/CGATOxford/UMI-tools
 	```
 </details>
 <details><summary><b><a href="https://github.com/brentp/mosdepth">mosdepth</a></b> (🥉18 ·  ⭐ 370) - fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing.</summary>
@@ -303,7 +311,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250 · ➕) - The Ensembl Variant Effect Predictor predicts the functional effects..</summary>
+<details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250) - The Ensembl Variant Effect Predictor predicts the functional effects of..</summary>
 
 - [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 92 · 📋 540 - 13% open · ⏱️ 10.11.2020):
 
@@ -311,7 +319,7 @@
 	git clone https://github.com/Ensembl/ensembl-vep
 	```
 </details>
-<details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 110 · ➕) - </summary>
+<details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 110) - </summary>
 
 - [GitHub](https://github.com/pcingola/SnpEff) (👨‍💻 19 · 🔀 51 · 📋 260 - 4% open · ⏱️ 31.01.2021):
 
@@ -369,7 +377,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥇13 ·  ⭐ 23 · ➕) - Phenotype driven gene prioritization for HPO.</summary>
+<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥇13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
 
 - [GitHub](https://github.com/WGLab/Phen2Gene) (👨‍💻 14 · 🔀 7 · 📥 650 · 📋 8 - 25% open · ⏱️ 12.01.2021):
 
@@ -377,7 +385,7 @@
 	git clone https://github.com/WGLab/Phen2Gene
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25 · ➕) - Script to convert GTC/BPM files to VCF.</summary>
+<details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥈11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>
 
 - [GitHub](https://github.com/Illumina/GTCtoVCF) (👨‍💻 10 · 🔀 18 · 📋 38 - 26% open · ⏱️ 07.04.2020):
 
@@ -385,11 +393,19 @@
 	git clone https://github.com/Illumina/GTCtoVCF
 	```
 </details>
-<details><summary><b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 38 · ➕) - The Pharmacogenomic Clinical Annotation Tool.</summary>
+<details><summary><b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 38) - The Pharmacogenomic Clinical Annotation Tool.</summary>
 
 - [GitHub](https://github.com/PharmGKB/PharmCAT) (👨‍💻 15 · 🔀 16 · 📥 1K · 📋 34 - 20% open · ⏱️ 09.09.2020):
 
 	```
 	git clone https://github.com/PharmGKB/PharmCAT
+	```
+</details>
+<details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
+
+- [GitHub](https://github.com/lh3/tabtk) (🔀 12 · ⏱️ 11.08.2016):
+
+	```
+	git clone https://github.com/lh3/tabtk
 	```
 </details>

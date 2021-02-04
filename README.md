@@ -15,8 +15,8 @@
 - [Assembler](#assembler) _2 projects_
 - [Read Alignment](#read-alignment) _4 projects_
 - [Variant caller](#variant-caller) _3 projects_
-- [Variant annotation](#variant-annotation) _2 projects_
-- [Structural variation](#structural-variation) _3 projects_
+- [Variant annotation](#variant-annotation) _3 projects_
+- [Structural variation](#structural-variation) _5 projects_
 - [ChIP-Seq](#chip-seq) _1 projects_
 - [Others](#others) _4 projects_
 
@@ -71,7 +71,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 650 · ➕) - bedtools - the swiss army knife for genome arithmetic.</summary>
+<details><summary><b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 650) - bedtools - the swiss army knife for genome arithmetic.</summary>
 
 - [GitHub](https://github.com/arq5x/bedtools2) (👨‍💻 85 · 🔀 240 · 📥 360K · 📋 670 - 20% open · ⏱️ 29.01.2021):
 
@@ -117,7 +117,7 @@
 	git clone https://github.com/biod/sambamba
 	```
 </details>
-<details><summary><b><a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a></b> (🥈19 ·  ⭐ 310 · ➕) - Tools for handling Unique Molecular Identifiers in NGS data sets.</summary>
+<details><summary><b><a href="https://github.com/CGATOxford/UMI-tools">UMI-tools</a></b> (🥈19 ·  ⭐ 310) - Tools for handling Unique Molecular Identifiers in NGS data sets.</summary>
 
 - [GitHub](https://github.com/CGATOxford/UMI-tools) (👨‍💻 29 · 🔀 160 · 📥 3.2K · 📋 320 - 8% open · ⏱️ 01.02.2021):
 
@@ -327,6 +327,14 @@
 	git clone https://github.com/pcingola/SnpEff
 	```
 </details>
+<details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110 · ➕) - A bioinformatics software tool for clinical interpretation of genetic..</summary>
+
+- [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 61 · 📋 52 - 48% open · ⏱️ 25.01.2021):
+
+	```
+	git clone https://github.com/WGLab/InterVar
+	```
+</details>
 <br>
 
 ## Structural variation
@@ -341,12 +349,28 @@
 	git clone https://github.com/Illumina/manta
 	```
 </details>
+<details><summary><b><a href="https://github.com/etal/cnvkit">cnvkit</a></b> (🥈15 ·  ⭐ 280 · ➕) - Copy number variant detection from targeted DNA sequencing.</summary>
+
+- [GitHub](https://github.com/etal/cnvkit) (👨‍💻 22 · 🔀 110 · 📋 500 - 28% open · ⏱️ 14.12.2020):
+
+	```
+	git clone https://github.com/etal/cnvkit
+	```
+</details>
 <details><summary><b><a href="https://github.com/fritzsedlazeck/Sniffles">Sniffles</a></b> (🥉14 ·  ⭐ 240) - Structural variation caller using third generation sequencing.</summary>
 
 - [GitHub](https://github.com/fritzsedlazeck/Sniffles) (👨‍💻 10 · 🔀 45 · 📋 240 - 17% open · ⏱️ 18.12.2020):
 
 	```
 	git clone https://github.com/fritzsedlazeck/Sniffles
+	```
+</details>
+<details><summary><b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22 · ➕) - a hidden Markov model to infer simple repeats from genome sequences.</summary>
+
+- [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 9 · 🔀 12 · 📥 36 · 📋 33 - 12% open · ⏱️ 30.12.2020):
+
+	```
+	git clone https://github.com/WGLab/RepeatHMM
 	```
 </details>
 <details><summary><b><a href="https://github.com/lgmgeo/AnnotSV">AnnotSV</a></b> (🥉8 ·  ⭐ 57) - Annotation and Ranking of Structural Variation.</summary>

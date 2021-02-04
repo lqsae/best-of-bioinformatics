@@ -8,28 +8,33 @@ configuration:
   hide_project_license: True
 
 categories:
-  - category: "sam-bam"
-    title: "Toolkit for SAM/BAM"
-  - category: "fasta-fastq"
-    title: "Toolkit for FASTA/FASTQ"
+  # toolkit
   - category: "tsv-csv"
     title: "Toolkit for TSV/CSV"
+  - category: "fasta-fastq"
+    title: "Toolkit for FASTA/FASTQ"
+  - category: "sam-bam"
+    title: "Toolkit for SAM/BAM"
   - category: "vcf-bcf"
     title: "Toolkit for VCF/BCF"
-  - category: "mhc-hla"
-    title: "MHC/HLA"
-  - category: "read-alignment"
-    title: "Read Alignment"
-  - category: "chip-seq"
-    title: "ChIP-Seq"
-  - category: "structural-variation"
-    title: "Structural variation"
-  - category: "assembler"
-    title: "Assembler"
-  - category: "variant-caller"
-    title: "Variant caller"
+  # sequence
   - category: "sequence-alignment"
     title: "Sequence Alignment"
+  - category: "mhc-hla"
+    title: "MHC/HLA"
+  # ngs
+  - category: "assembler"
+    title: "Assembler"
+  - category: "read-alignment"
+    title: "Read Alignment"
+  - category: "variant-caller"
+    title: "Variant caller"
+  - category: "variant-annotation"
+    title: "Variant annotation"
+  - category: "structural-variation"
+    title: "Structural variation"
+  - category: "chip-seq"
+    title: "ChIP-Seq"
 
 projects:
   # sam-bam
@@ -61,20 +66,20 @@ projects:
   - name: seqtk
     github_id: lh3/seqtk
     category: fasta-fastq
-    show: True  
+    show: True
   - name: fastp
     github_id: OpenGene/fastp
     category: fasta-fastq
-    show: True  
+    show: True
   - name: gtz
     github_id: Genetalks/gtz
     category: fasta-fastq
-    show: True  
+    show: True
   # tsv-csv
   - name: tabtk
     github_id: lh3/tabtk
     category: tsv-csv
-    show: True  
+    show: True
   - name: bedtk
     github_id: lh3/bedtk
     category: tsv-csv
@@ -88,80 +93,98 @@ projects:
     github_id: vcflib/vcflib
     category: vcf-bcf
     show: True
-  # read-alignment  
+  # read-alignment
   - name: minimap2
     github_id: lh3/minimap2
     category: read-alignment
-    show: True  
+    show: True
   - name: bwa
     github_id: lh3/bwa
     category: read-alignment
-    show: True  
+    show: True
   - name: bowtie2
     github_id: BenLangmead/bowtie2
     category: read-alignment
-    show: True  
+    show: True
   - name: bwa-mem2
     github_id: bwa-mem2/bwa-mem2
     category: read-alignment
-    show: True  
-  # chip-seq 
+    show: True
+  # chip-seq
   - name: MACS
     github_id: macs3-project/MACS
     category: chip-seq
-    show: True  
+    show: True
   # structural-variation
   - name: Sniffles
     github_id: fritzsedlazeck/Sniffles
     category: structural-variation
-    show: True  
+    show: True
   - name: manta
     github_id: Illumina/manta
     category: structural-variation
-    show: True  
+    show: True
   - name: AnnotSV
     github_id: lgmgeo/AnnotSV
     category: structural-variation
-    show: True  
+    show: True
   # assembler
   - name: velvet
     github_id: dzerbino/velvet
     category: assembler
-    show: True  
+    show: True
   - name: wtdbg2
     github_id: ruanjue/wtdbg2
     category: assembler
-    show: True  
+    show: True
   # mhc-hla
   - name: mhcflurry
     github_id: openvax/mhcflurry
     category: mhc-hla
-    show: True  
+    show: True
   - name: OptiType
     github_id: FRED-2/OptiType
     category: mhc-hla
-    show: True  
+    show: True
   - name: HLA
     github_id: humanlongevity/HLA
     category: mhc-hla
-    show: True  
+    show: True
   # variant-caller
   - name: deepvariant
     github_id: google/deepvariant
     category: variant-caller
-    show: True  
+    show: True
   - name: gatk
     github_id: broadinstitute/gatk
     category: variant-caller
-    show: True  
+    show: True
   - name: strelka
     github_id: Illumina/strelka
     category: variant-caller
-    show: True  
+    show: True
   # sequence-alignment
   - name: diamond
     github_id: bbuchfink/diamond
     category: sequence-alignment
-    show: True  
-
+    show: True
+  # variant-annotation
+  - name: ensembl-vep
+    github_id: Ensembl/ensembl-vep
+    category: variant-annotation
+    show: True
+  - name: SnpEff
+    github_id: pcingola/SnpEff
+    category: variant-annotation
+    show: True
   # other
+  - name: GTCtoVCF
+    github_id: Illumina/GTCtoVCF
+    show: True
+  - name: PharmCAT
+    github_id: PharmGKB/PharmCAT
+    show: True
+  - name: Phen2Gene
+    github_id: WGLab/Phen2Gene
+    category: phenotype
+    show: True

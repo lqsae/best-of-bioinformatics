@@ -18,8 +18,8 @@ categories:
     title: "Tools for VCF/BCF"
   - category: "assembler"
     title: "Assembler"
-  - category: "alignment"
-    title: "Alignment"
+  - category: "ngs-alignment"
+    title: "NGS Alignment"
   - category: "variant-caller"
     title: "Variant Caller"
   - category: "variant-annotation"
@@ -30,22 +30,38 @@ categories:
     title: "MSI Detection"
   - category: "mhc-hla"
     title: "MHC/HLA"
-  - category: "blast"
-    title: "Blast"
+  - category: "sequence-alignment"
+    title: "Sequence Alignment"
 
 projects:
-  # blast
+  # sequence-alignment
   - name: diamond
     github_id: bbuchfink/diamond
-    category: blast
+    category: sequence-alignment
     show: True
   - name: blat
     github_id: djhshih/blat
-    category: blast
+    category: sequence-alignment
     show: True
   - name: pblat
     github_id: icebert/pblat
-    category: blast
+    category: sequence-alignment
+    show: True
+  - name: mafft
+    github_id: GSLBiotech/mafft
+    category: sequence-alignment
+    show: True
+  - name: muscle
+    github_id: GSLBiotech/muscle
+    category: sequence-alignment
+    show: True
+  - name: t-coffee
+    github_id: GSLBiotech/t-coffee
+    category: sequence-alignment
+    show: True
+  - name: clustal-omega
+    github_id: GSLBiotech/clustal-omega
+    category: sequence-alignment
     show: True
   # msi-detection
   - name: msisensor
@@ -176,30 +192,30 @@ projects:
     github_id: brentp/cyvcf2
     category: vcf-bcf
     show: True
-  # alignment
+  # ngs-alignment
   - name: minimap2
     github_id: lh3/minimap2
-    category: alignment
+    category: ngs-alignment
     show: True
   - name: pbmm2
     github_id: PacificBiosciences/pbmm2
-    category: alignment
+    category: ngs-alignment
     show: True
   - name: blasr
     github_id: PacificBiosciences/blasr
-    category: alignment
+    category: ngs-alignment
     show: True
   - name: bwa
     github_id: lh3/bwa
-    category: alignment
+    category: ngs-alignment
     show: True
   - name: bowtie2
     github_id: BenLangmead/bowtie2
-    category: alignment
+    category: ngs-alignment
     show: True
   - name: bwa-mem2
     github_id: bwa-mem2/bwa-mem2
-    category: alignment
+    category: ngs-alignment
     show: True
   # structural-variation
   - name: Sniffles

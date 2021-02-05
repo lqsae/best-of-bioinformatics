@@ -28,8 +28,27 @@ categories:
     title: "Variant Annotation"
   - category: "structural-variation"
     title: "Structural Variation"
+  - category: "msi-detection "
+    title: "MSI Detection"
 
 projects:
+  # msi-detection
+  - name: msisensor
+    github_id: ding-lab/msisensor
+    category: msi-detection
+    show: True
+  - name: msisensor2
+    github_id: niu-lab/msisensor2
+    category: msi-detection
+    show: True
+  - name: msisensor-pro
+    github_id: xjtu-omics/msisensor-pro
+    category: msi-detection
+    show: True
+  - name: msisensor-ct
+    github_id: niu-lab/msisensor-ct
+    category: msi-detection
+    show: True
   # bed-gtf-gff
   - name: bedtk
     github_id: lh3/bedtk
@@ -85,6 +104,14 @@ projects:
     github_id: Genetalks/gtz
     category: fasta-fastq
     show: True
+  - name: seqkit
+    github_id: shenwei356/seqkit
+    category: fasta-fastq
+    show: True
+  - name: pyfaidx
+    github_id: mdshw5/pyfaidx
+    category: fasta-fastq
+    show: True
   # vcf-bcf
   - name: bcftools
     github_id: samtools/bcftools
@@ -92,6 +119,10 @@ projects:
     show: True
   - name: vcflib
     github_id: vcflib/vcflib
+    category: vcf-bcf
+    show: True
+  - name: hap.py
+    github_id: Illumina/hap.py
     category: vcf-bcf
     show: True
   # read-alignment
@@ -142,6 +173,10 @@ projects:
     show: True
   - name: cnvkit
     github_id: etal/cnvkit
+    category: structural-variation
+    show: True
+  - name: delly
+    github_id: dellytools/delly
     category: structural-variation
     show: True
   # assembler
@@ -234,5 +269,11 @@ projects:
     show: True
   - name: RepeatMasker
     github_id: rmhubley/RepeatMasker
+    show: True
+  - name: CrossMap
+    github_id: liguowang/CrossMap
+    show: True
+  - name: bioconda-recipes
+    github_id: bioconda/bioconda-recipes
     show: True
   

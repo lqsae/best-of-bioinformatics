@@ -6,18 +6,18 @@
 
 ## Contents
 
-- [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _8 projects_
-- [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
-- [Toolkit for SAM/BAM](#toolkit-for-sambam) _10 projects_
-- [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _3 projects_
-- [MHC/HLA](#mhchla) _3 projects_
+- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _8 projects_
+- [Tools for BED/GTF/GFF](#tools-for-bedgtfgff) _2 projects_
+- [Tools for SAM/BAM](#tools-for-sambam) _10 projects_
+- [Tools for VCF/BCF](#tools-for-vcfbcf) _4 projects_
 - [Assembler](#assembler) _2 projects_
 - [Read Alignment](#read-alignment) _6 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
 - [MSI Detection](#msi-detection) _4 projects_
-- [Others](#others) _12 projects_
+- [MHC/HLA](#mhchla) _3 projects_
+- [Others](#others) _15 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -36,7 +36,7 @@
 
 <br>
 
-## Toolkit for FASTA/FASTQ
+## Tools for FASTA/FASTQ
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -80,7 +80,7 @@
 	git clone https://github.com/agordon/fastx_toolkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160 · ➕) - A quality control analysis tool for high throughput sequencing data.</summary>
+<details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160) - A quality control analysis tool for high throughput sequencing data.</summary>
 
 - [GitHub](https://github.com/s-andrews/FastQC) (👨‍💻 7 · 🔀 43 · 📋 65 - 32% open · ⏱️ 13.01.2021):
 
@@ -96,7 +96,7 @@
 	git clone https://github.com/Genetalks/gtz
 	```
 </details>
-<details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43 · ➕) - FASTQ compression.</summary>
+<details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43) - FASTQ compression.</summary>
 
 - [GitHub](https://github.com/shubhamchandak94/Spring) (🔀 14 · ⏱️ 14.11.2020):
 
@@ -106,7 +106,7 @@
 </details>
 <br>
 
-## Toolkit for BED/GTF/GFF
+## Tools for BED/GTF/GFF
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -128,7 +128,7 @@
 </details>
 <br>
 
-## Toolkit for SAM/BAM
+## Tools for SAM/BAM
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -214,7 +214,7 @@
 </details>
 <br>
 
-## Toolkit for VCF/BCF
+## Tools for VCF/BCF
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -226,12 +226,20 @@
 	git clone https://github.com/samtools/bcftools
 	```
 </details>
-<details><summary><b><a href="https://github.com/vcflib/vcflib">vcflib</a></b> (🥉18 ·  ⭐ 410) - C++ library and cmdline tools for parsing and manipulating VCF files.</summary>
+<details><summary><b><a href="https://github.com/vcflib/vcflib">vcflib</a></b> (🥈18 ·  ⭐ 410) - C++ library and cmdline tools for parsing and manipulating VCF files.</summary>
 
 - [GitHub](https://github.com/vcflib/vcflib) (👨‍💻 66 · 🔀 180 · 📥 740 · 📋 210 - 9% open · ⏱️ 30.01.2021):
 
 	```
 	git clone https://github.com/vcflib/vcflib
+	```
+</details>
+<details><summary><b><a href="https://github.com/brentp/cyvcf2">cyvcf2</a></b> (🥉17 ·  ⭐ 240 · ➕) - cython + htslib == fast VCF and BCF processing.</summary>
+
+- [GitHub](https://github.com/brentp/cyvcf2) (👨‍💻 29 · 🔀 48 · 📦 180 · 📋 140 - 20% open · ⏱️ 26.01.2021):
+
+	```
+	git clone https://github.com/brentp/cyvcf2
 	```
 </details>
 <details><summary><b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉11 ·  ⭐ 240) - Haplotype VCF comparison tools.</summary>
@@ -240,36 +248,6 @@
 
 	```
 	git clone https://github.com/Illumina/hap.py
-	```
-</details>
-<br>
-
-## MHC/HLA
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/openvax/mhcflurry">mhcflurry</a></b> (🥇19 ·  ⭐ 110) - Peptide-MHC I binding affinity prediction.</summary>
-
-- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 32 · 📥 43K · 📦 14 · 📋 100 - 2% open · ⏱️ 07.01.2021):
-
-	```
-	git clone https://github.com/openvax/mhcflurry
-	```
-</details>
-<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥉13 ·  ⭐ 110) - Precision HLA typing from next-generation sequencing data.</summary>
-
-- [GitHub](https://github.com/FRED-2/OptiType) (👨‍💻 13 · 🔀 63 · 📋 88 - 31% open · ⏱️ 15.09.2020):
-
-	```
-	git clone https://github.com/FRED-2/OptiType
-	```
-</details>
-<details><summary><b><a href="https://github.com/humanlongevity/HLA">HLA</a></b> (🥉9 ·  ⭐ 67 · 💀) - xHLA: Fast and accurate HLA typing from short read sequence data.</summary>
-
-- [GitHub](https://github.com/humanlongevity/HLA) (👨‍💻 4 · 🔀 34 · 📋 55 - 70% open · ⏱️ 04.10.2017):
-
-	```
-	git clone https://github.com/humanlongevity/HLA
 	```
 </details>
 <br>
@@ -550,11 +528,49 @@
 </details>
 <br>
 
+## MHC/HLA
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/openvax/mhcflurry">mhcflurry</a></b> (🥇19 ·  ⭐ 110) - Peptide-MHC I binding affinity prediction.</summary>
+
+- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 32 · 📥 43K · 📦 14 · 📋 100 - 2% open · ⏱️ 07.01.2021):
+
+	```
+	git clone https://github.com/openvax/mhcflurry
+	```
+</details>
+<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥉13 ·  ⭐ 110) - Precision HLA typing from next-generation sequencing data.</summary>
+
+- [GitHub](https://github.com/FRED-2/OptiType) (👨‍💻 13 · 🔀 63 · 📋 88 - 31% open · ⏱️ 15.09.2020):
+
+	```
+	git clone https://github.com/FRED-2/OptiType
+	```
+</details>
+<details><summary><b><a href="https://github.com/humanlongevity/HLA">HLA</a></b> (🥉9 ·  ⭐ 67 · 💀) - xHLA: Fast and accurate HLA typing from short read sequence data.</summary>
+
+- [GitHub](https://github.com/humanlongevity/HLA) (👨‍💻 4 · 🔀 34 · 📋 55 - 70% open · ⏱️ 04.10.2017):
+
+	```
+	git clone https://github.com/humanlongevity/HLA
+	```
+</details>
+<br>
+
 ## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K · ➕) - Official git repository for Biopython (originally converted from CVS).</summary>
+<details><summary><b><a href="https://github.com/lmcinnes/umap">umap</a></b> (🥇25 ·  ⭐ 4.5K · ➕) - Uniform Manifold Approximation and Projection.</summary>
+
+- [GitHub](https://github.com/lmcinnes/umap) (👨‍💻 70 · 🔀 470 · 📦 2.3K · 📋 430 - 47% open · ⏱️ 04.02.2021):
+
+	```
+	git clone https://github.com/lmcinnes/umap
+	```
+</details>
+<details><summary><b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K) - Official git repository for Biopython (originally converted from CVS).</summary>
 
 - [GitHub](https://github.com/biopython/biopython) (👨‍💻 370 · 🔀 1.2K · 📦 6.4K · 📋 1.2K - 27% open · ⏱️ 25.01.2021):
 
@@ -562,15 +578,23 @@
 	git clone https://github.com/biopython/biopython
 	```
 </details>
-<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
+<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥈19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
-- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.3K - 18% open · ⏱️ 04.02.2021):
+- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.3K - 18% open · ⏱️ 05.02.2021):
 
 	```
 	git clone https://github.com/bioconda/bioconda-recipes
 	```
 </details>
-<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
+<details><summary><b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥈19 ·  ⭐ 700 · ➕) - Aggregate results from bioinformatics analyses across many samples into a..</summary>
+
+- [GitHub](https://github.com/ewels/MultiQC) (👨‍💻 140 · 🔀 350 · 📥 43 · 📦 130 · 📋 920 - 16% open · ⏱️ 03.02.2021):
+
+	```
+	git clone https://github.com/ewels/MultiQC
+	```
+</details>
+<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥈19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
 
 - [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
 
@@ -586,7 +610,7 @@
 	git clone https://github.com/gmarcais/Jellyfish
 	```
 </details>
-<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥈15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
+<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥉15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
 
 - [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
 
@@ -600,6 +624,14 @@
 
 	```
 	git clone https://github.com/WGLab/Phen2Gene
+	```
+</details>
+<details><summary><b><a href="https://github.com/EddyRivasLab/hmmer">hmmer</a></b> (🥉12 ·  ⭐ 150 · ➕) - HMMER: biological sequence analysis using profile HMMs.</summary>
+
+- [GitHub](https://github.com/EddyRivasLab/hmmer) (👨‍💻 18 · 🔀 41 · 📋 190 - 3% open · ⏱️ 27.11.2020):
+
+	```
+	git clone https://github.com/EddyRivasLab/hmmer
 	```
 </details>
 <details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>

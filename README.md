@@ -6,7 +6,7 @@
 
 ## Contents
 
-- [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _5 projects_
+- [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _8 projects_
 - [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
 - [Toolkit for SAM/BAM](#toolkit-for-sambam) _10 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _3 projects_
@@ -17,7 +17,7 @@
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
 - [MSI Detection](#msi-detection) _4 projects_
-- [Others](#others) _10 projects_
+- [Others](#others) _12 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -56,7 +56,7 @@
 	git clone https://github.com/mdshw5/pyfaidx
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥉16 ·  ⭐ 940) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
+<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥈16 ·  ⭐ 940) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
 
 - [GitHub](https://github.com/OpenGene/fastp) (👨‍💻 17 · 🔀 190 · 📋 290 - 50% open · ⏱️ 14.10.2020):
 
@@ -72,12 +72,36 @@
 	git clone https://github.com/lh3/seqtk
 	```
 </details>
+<details><summary><b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥉13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.</summary>
+
+- [GitHub](https://github.com/agordon/fastx_toolkit) (👨‍💻 3 · 🔀 52 · 📥 68K · 📋 18 - 38% open · ⏱️ 14.08.2017):
+
+	```
+	git clone https://github.com/agordon/fastx_toolkit
+	```
+</details>
+<details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160 · ➕) - A quality control analysis tool for high throughput sequencing data.</summary>
+
+- [GitHub](https://github.com/s-andrews/FastQC) (👨‍💻 7 · 🔀 43 · 📋 65 - 32% open · ⏱️ 13.01.2021):
+
+	```
+	git clone https://github.com/s-andrews/FastQC
+	```
+</details>
 <details><summary><b><a href="https://github.com/Genetalks/gtz">gtz</a></b> (🥉11 ·  ⭐ 130) - A high performance and compression ratio compressor for genomic data, powered by..</summary>
 
 - [GitHub](https://github.com/Genetalks/gtz) (👨‍💻 17 · 🔀 36 · 📋 29 - 31% open · ⏱️ 15.12.2020):
 
 	```
 	git clone https://github.com/Genetalks/gtz
+	```
+</details>
+<details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43 · ➕) - FASTQ compression.</summary>
+
+- [GitHub](https://github.com/shubhamchandak94/Spring) (🔀 14 · ⏱️ 14.11.2020):
+
+	```
+	git clone https://github.com/shubhamchandak94/Spring
 	```
 </details>
 <br>
@@ -164,7 +188,7 @@
 	git clone https://github.com/pysam-developers/pysam
 	```
 </details>
-<details><summary><b><a href="https://github.com/GregoryFaust/samblaster">samblaster</a></b> (🥉13 ·  ⭐ 160 · ➕) - samblaster: a tool to mark duplicates and extract discordant and split..</summary>
+<details><summary><b><a href="https://github.com/GregoryFaust/samblaster">samblaster</a></b> (🥉13 ·  ⭐ 160) - samblaster: a tool to mark duplicates and extract discordant and split..</summary>
 
 - [GitHub](https://github.com/GregoryFaust/samblaster) (👨‍💻 5 · 🔀 21 · 📥 7.8K · 📋 42 - 21% open · ⏱️ 04.06.2020):
 
@@ -530,6 +554,14 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
+<details><summary><b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K · ➕) - Official git repository for Biopython (originally converted from CVS).</summary>
+
+- [GitHub](https://github.com/biopython/biopython) (👨‍💻 370 · 🔀 1.2K · 📦 6.4K · 📋 1.2K - 27% open · ⏱️ 25.01.2021):
+
+	```
+	git clone https://github.com/biopython/biopython
+	```
+</details>
 <details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
 - [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.3K - 18% open · ⏱️ 04.02.2021):
@@ -546,7 +578,7 @@
 	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
-<details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280 · ➕) - A fast multi-threaded k-mer counter.</summary>
+<details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280) - A fast multi-threaded k-mer counter.</summary>
 
 - [GitHub](https://github.com/gmarcais/Jellyfish) (👨‍💻 12 · 🔀 120 · 📥 84K · 📋 150 - 45% open · ⏱️ 05.05.2020):
 
@@ -592,6 +624,14 @@
 
 	```
 	git clone https://github.com/PharmGKB/PharmCAT
+	```
+</details>
+<details><summary><b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉9 ·  ⭐ 80 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.</summary>
+
+- [GitHub](https://github.com/samtools/tabix) (👨‍💻 4 · 🔀 37 · 📋 13 - 53% open · ⏱️ 16.12.2013):
+
+	```
+	git clone https://github.com/samtools/tabix
 	```
 </details>
 <details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 69) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>

@@ -104,6 +104,10 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
+  - name: Spring
+    github_id: shubhamchandak94/Spring
+    category: fasta-fastq
+    show: True
   - name: fastp
     github_id: OpenGene/fastp
     category: fasta-fastq
@@ -118,6 +122,14 @@ projects:
     show: True
   - name: pyfaidx
     github_id: mdshw5/pyfaidx
+    category: fasta-fastq
+    show: True
+  - name: FastQC
+    github_id: s-andrews/FastQC
+    category: fasta-fastq
+    show: True
+  - name: fastx_toolkit
+    github_id: agordon/fastx_toolkit
     category: fasta-fastq
     show: True
   # vcf-bcf
@@ -286,5 +298,11 @@ projects:
     show: True
   - name: Jellyfish
     github_id: gmarcais/Jellyfish
+    show: True
+  - name: biopython
+    github_id: biopython/biopython
+    show: True
+  - name: tabix
+    github_id: samtools/tabix
     show: True
   

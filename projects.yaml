@@ -28,7 +28,7 @@ categories:
     title: "Variant Annotation"
   - category: "structural-variation"
     title: "Structural Variation"
-  - category: "msi-detection "
+  - category: "msi-detection"
     title: "MSI Detection"
 
 projects:
@@ -61,6 +61,14 @@ projects:
   # sam-bam
   - name: sambamba
     github_id: biod/sambamba
+    category: sam-bam
+    show: True
+  - name: samblaster
+    github_id: GregoryFaust/samblaster
+    category: sam-bam
+    show: True
+  - name: biobambam2
+    github_id: gt1/biobambam2
     category: sam-bam
     show: True
   - name: picard
@@ -275,5 +283,8 @@ projects:
     show: True
   - name: bioconda-recipes
     github_id: bioconda/bioconda-recipes
+    show: True
+  - name: Jellyfish
+    github_id: gmarcais/Jellyfish
     show: True
   

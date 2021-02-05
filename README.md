@@ -8,7 +8,7 @@
 
 - [Toolkit for FASTA/FASTQ](#toolkit-for-fastafastq) _5 projects_
 - [Toolkit for BED/GTF/GFF](#toolkit-for-bedgtfgff) _2 projects_
-- [Toolkit for SAM/BAM](#toolkit-for-sambam) _8 projects_
+- [Toolkit for SAM/BAM](#toolkit-for-sambam) _10 projects_
 - [Toolkit for VCF/BCF](#toolkit-for-vcfbcf) _3 projects_
 - [MHC/HLA](#mhchla) _3 projects_
 - [Assembler](#assembler) _2 projects_
@@ -16,8 +16,8 @@
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
-- [MSI Detection](#msi-detection) _0 projects_
-- [Others](#others) _13 projects_
+- [MSI Detection](#msi-detection) _4 projects_
+- [Others](#others) _10 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -40,7 +40,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/shenwei356/seqkit">seqkit</a></b> (🥇18 ·  ⭐ 590 · ➕) - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in..</summary>
+<details><summary><b><a href="https://github.com/shenwei356/seqkit">seqkit</a></b> (🥇18 ·  ⭐ 590) - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in Golang.</summary>
 
 - [GitHub](https://github.com/shenwei356/seqkit) (👨‍💻 5 · 🔀 86 · 📥 42K · 📋 150 - 4% open · ⏱️ 31.01.2021):
 
@@ -48,7 +48,7 @@
 	git clone https://github.com/shenwei356/seqkit
 	```
 </details>
-<details><summary><b><a href="https://github.com/mdshw5/pyfaidx">pyfaidx</a></b> (🥇18 ·  ⭐ 300 · ➕) - Efficient pythonic random access to fasta subsequences.</summary>
+<details><summary><b><a href="https://github.com/mdshw5/pyfaidx">pyfaidx</a></b> (🥇18 ·  ⭐ 300) - Efficient pythonic random access to fasta subsequences.</summary>
 
 - [GitHub](https://github.com/mdshw5/pyfaidx) (👨‍💻 25 · 🔀 50 · 📦 440 · 📋 120 - 10% open · ⏱️ 08.12.2020):
 
@@ -164,6 +164,22 @@
 	git clone https://github.com/pysam-developers/pysam
 	```
 </details>
+<details><summary><b><a href="https://github.com/GregoryFaust/samblaster">samblaster</a></b> (🥉13 ·  ⭐ 160 · ➕) - samblaster: a tool to mark duplicates and extract discordant and split..</summary>
+
+- [GitHub](https://github.com/GregoryFaust/samblaster) (👨‍💻 5 · 🔀 21 · 📥 7.8K · 📋 42 - 21% open · ⏱️ 04.06.2020):
+
+	```
+	git clone https://github.com/GregoryFaust/samblaster
+	```
+</details>
+<details><summary><b><a href="https://github.com/gt1/biobambam2">biobambam2</a></b> (🥉13 ·  ⭐ 84 · 💤) - Tools for early stage alignment file processing.</summary>
+
+- [GitHub](https://github.com/gt1/biobambam2) (👨‍💻 8 · 🔀 16 · 📥 11K · 📋 70 - 38% open · ⏱️ 12.03.2019):
+
+	```
+	git clone https://github.com/gt1/biobambam2
+	```
+</details>
 <details><summary><b><a href="https://github.com/samtools/hts-specs">hts-specs</a></b> (🥉12 ·  ⭐ 420) - Specifications of SAM/BAM and related high-throughput sequencing file formats.</summary>
 
 - [GitHub](https://github.com/samtools/hts-specs) (👨‍💻 50 · 🔀 140 · 📋 270 - 44% open · ⏱️ 04.02.2021):
@@ -194,7 +210,7 @@
 	git clone https://github.com/vcflib/vcflib
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉11 ·  ⭐ 240 · ➕) - Haplotype VCF comparison tools.</summary>
+<details><summary><b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉11 ·  ⭐ 240) - Haplotype VCF comparison tools.</summary>
 
 - [GitHub](https://github.com/Illumina/hap.py) (👨‍💻 18 · 🔀 77 · 📥 50 · 📋 120 - 56% open · ⏱️ 13.02.2020):
 
@@ -414,7 +430,7 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/dellytools/delly">delly</a></b> (🥇19 ·  ⭐ 240 · ➕) - DELLY2: Structural variant discovery by integrated paired-end and split-read..</summary>
+<details><summary><b><a href="https://github.com/dellytools/delly">delly</a></b> (🥇19 ·  ⭐ 240) - DELLY2: Structural variant discovery by integrated paired-end and split-read..</summary>
 
 - [GitHub](https://github.com/dellytools/delly) (👨‍💻 9 · 🔀 98 · 📥 17K · 📋 210 - 6% open · ⏱️ 06.01.2021):
 
@@ -476,13 +492,45 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
+<details><summary><b><a href="https://github.com/ding-lab/msisensor">msisensor</a></b> (🥇12 ·  ⭐ 100) - microsatellite instability detection using tumor only or paired tumor-normal..</summary>
+
+- [GitHub](https://github.com/ding-lab/msisensor) (👨‍💻 5 · 🔀 45 · 📥 340 · 📋 42 - 23% open · ⏱️ 06.01.2021):
+
+	```
+	git clone https://github.com/ding-lab/msisensor
+	```
+</details>
+<details><summary><b><a href="https://github.com/xjtu-omics/msisensor-pro">msisensor-pro</a></b> (🥈10 ·  ⭐ 24) - Microsatellite Instability (MSI) detection using high-throughput..</summary>
+
+- [GitHub](https://github.com/xjtu-omics/msisensor-pro) (👨‍💻 2 · 🔀 7 · 📥 1 · 📋 18 - 44% open · ⏱️ 03.02.2021):
+
+	```
+	git clone https://github.com/xjtu-omics/msisensor-pro
+	```
+</details>
+<details><summary><b><a href="https://github.com/niu-lab/msisensor2">msisensor2</a></b> (🥉8 ·  ⭐ 51 · 💤) - Microsatellite instability (MSI) detection for tumor only data.</summary>
+
+- [GitHub](https://github.com/niu-lab/msisensor2) (👨‍💻 3 · 🔀 12 · 📋 19 - 84% open · ⏱️ 21.11.2019):
+
+	```
+	git clone https://github.com/niu-lab/msisensor2
+	```
+</details>
+<details><summary><b><a href="https://github.com/niu-lab/msisensor-ct">msisensor-ct</a></b> (🥉6 ·  ⭐ 4 · 🐣) - Microsatellite instability (MSI) detection for cfDNA samples.</summary>
+
+- [GitHub](https://github.com/niu-lab/msisensor-ct) (👨‍💻 2 · ⏱️ 29.01.2021):
+
+	```
+	git clone https://github.com/niu-lab/msisensor-ct
+	```
+</details>
 <br>
 
 ## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K · ➕) - Conda recipes for the bioconda channel.</summary>
+<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
 - [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.3K - 18% open · ⏱️ 04.02.2021):
 
@@ -498,6 +546,14 @@
 	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
+<details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280 · ➕) - A fast multi-threaded k-mer counter.</summary>
+
+- [GitHub](https://github.com/gmarcais/Jellyfish) (👨‍💻 12 · 🔀 120 · 📥 84K · 📋 150 - 45% open · ⏱️ 05.05.2020):
+
+	```
+	git clone https://github.com/gmarcais/Jellyfish
+	```
+</details>
 <details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥈15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
 
 - [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
@@ -506,20 +562,12 @@
 	git clone https://github.com/macs3-project/MACS
 	```
 </details>
-<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥈13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
+<details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥉13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
 
 - [GitHub](https://github.com/WGLab/Phen2Gene) (👨‍💻 14 · 🔀 7 · 📥 650 · 📋 8 - 25% open · ⏱️ 12.01.2021):
 
 	```
 	git clone https://github.com/WGLab/Phen2Gene
-	```
-</details>
-<details><summary><b><a href="https://github.com/ding-lab/msisensor">msisensor</a></b> (🥈12 ·  ⭐ 100 · ➕) - microsatellite instability detection using tumor only or paired tumor-..</summary>
-
-- [GitHub](https://github.com/ding-lab/msisensor) (👨‍💻 5 · 🔀 45 · 📥 340 · 📋 42 - 23% open · ⏱️ 06.01.2021):
-
-	```
-	git clone https://github.com/ding-lab/msisensor
 	```
 </details>
 <details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>
@@ -530,7 +578,7 @@
 	git clone https://github.com/Illumina/GTCtoVCF
 	```
 </details>
-<details><summary><b><a href="https://github.com/liguowang/CrossMap">CrossMap</a></b> (🥉11 ·  ⭐ 12 · ➕) - CrossMap is a python program to lift over genome coordinates from one..</summary>
+<details><summary><b><a href="https://github.com/liguowang/CrossMap">CrossMap</a></b> (🥉11 ·  ⭐ 12) - CrossMap is a python program to lift over genome coordinates from one genome..</summary>
 
 - [GitHub](https://github.com/liguowang/CrossMap) (👨‍💻 2 · 🔀 9 · 📦 11 · 📋 22 - 59% open · ⏱️ 14.01.2021):
 
@@ -546,14 +594,6 @@
 	git clone https://github.com/PharmGKB/PharmCAT
 	```
 </details>
-<details><summary><b><a href="https://github.com/xjtu-omics/msisensor-pro">msisensor-pro</a></b> (🥉10 ·  ⭐ 24 · ➕) - Microsatellite Instability (MSI) detection using high-throughput..</summary>
-
-- [GitHub](https://github.com/xjtu-omics/msisensor-pro) (👨‍💻 2 · 🔀 7 · 📥 1 · 📋 18 - 44% open · ⏱️ 03.02.2021):
-
-	```
-	git clone https://github.com/xjtu-omics/msisensor-pro
-	```
-</details>
 <details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 69) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
 
 - [GitHub](https://github.com/rmhubley/RepeatMasker) (👨‍💻 3 · 🔀 25 · 📋 86 - 31% open · ⏱️ 02.09.2020):
@@ -562,27 +602,11 @@
 	git clone https://github.com/rmhubley/RepeatMasker
 	```
 </details>
-<details><summary><b><a href="https://github.com/niu-lab/msisensor2">msisensor2</a></b> (🥉8 ·  ⭐ 51 · 💤) - Microsatellite instability (MSI) detection for tumor only data.</summary>
-
-- [GitHub](https://github.com/niu-lab/msisensor2) (👨‍💻 3 · 🔀 12 · 📋 19 - 84% open · ⏱️ 21.11.2019):
-
-	```
-	git clone https://github.com/niu-lab/msisensor2
-	```
-</details>
 <details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
 
 - [GitHub](https://github.com/lh3/tabtk) (🔀 12 · ⏱️ 11.08.2016):
 
 	```
 	git clone https://github.com/lh3/tabtk
-	```
-</details>
-<details><summary><b><a href="https://github.com/niu-lab/msisensor-ct">msisensor-ct</a></b> (🥉6 ·  ⭐ 4 · 🐣) - Microsatellite instability (MSI) detection for cfDNA samples.</summary>
-
-- [GitHub](https://github.com/niu-lab/msisensor-ct) (👨‍💻 2 · ⏱️ 29.01.2021):
-
-	```
-	git clone https://github.com/niu-lab/msisensor-ct
 	```
 </details>

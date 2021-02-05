@@ -2,14 +2,7 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K · ➕) - Conda recipes for the bioconda channel.
-- <b><a href="https://github.com/dellytools/delly">delly</a></b> (🥇19 ·  ⭐ 240 · ➕) - DELLY2: Structural variant discovery by integrated paired-end and split-read..
-- <b><a href="https://github.com/shenwei356/seqkit">seqkit</a></b> (🥇18 ·  ⭐ 590 · ➕) - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in..
-- <b><a href="https://github.com/mdshw5/pyfaidx">pyfaidx</a></b> (🥇18 ·  ⭐ 300 · ➕) - Efficient pythonic random access to fasta subsequences.
-- <b><a href="https://github.com/ding-lab/msisensor">msisensor</a></b> (🥈12 ·  ⭐ 100 · ➕) - microsatellite instability detection using tumor only or paired tumor-..
-- <b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉11 ·  ⭐ 240 · ➕) - Haplotype VCF comparison tools.
-- <b><a href="https://github.com/liguowang/CrossMap">CrossMap</a></b> (🥉11 ·  ⭐ 12 · ➕) - CrossMap is a python program to lift over genome coordinates from one..
-- <b><a href="https://github.com/xjtu-omics/msisensor-pro">msisensor-pro</a></b> (🥉10 ·  ⭐ 24 · ➕) - Microsatellite Instability (MSI) detection using high-throughput..
-- <b><a href="https://github.com/niu-lab/msisensor2">msisensor2</a></b> (🥉8 ·  ⭐ 51 · 💤) - Microsatellite instability (MSI) detection for tumor only data.
-- <b><a href="https://github.com/niu-lab/msisensor-ct">msisensor-ct</a></b> (🥉6 ·  ⭐ 4 · 🐣) - Microsatellite instability (MSI) detection for cfDNA samples.
+- <b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280 · ➕) - A fast multi-threaded k-mer counter.
+- <b><a href="https://github.com/GregoryFaust/samblaster">samblaster</a></b> (🥉13 ·  ⭐ 160 · ➕) - samblaster: a tool to mark duplicates and extract discordant and split..
+- <b><a href="https://github.com/gt1/biobambam2">biobambam2</a></b> (🥉13 ·  ⭐ 84 · 💤) - Tools for early stage alignment file processing.
 

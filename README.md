@@ -6,17 +6,18 @@
 
 ## Contents
 
-- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _8 projects_
+- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _11 projects_
 - [Tools for BED/GTF/GFF](#tools-for-bedgtfgff) _2 projects_
 - [Tools for SAM/BAM](#tools-for-sambam) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _4 projects_
-- [Assembler](#assembler) _2 projects_
-- [Read Alignment](#read-alignment) _6 projects_
+- [Assembler](#assembler) _3 projects_
+- [Alignment](#alignment) _6 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
 - [MSI Detection](#msi-detection) _4 projects_
 - [MHC/HLA](#mhchla) _3 projects_
+- [Blast](#blast) _3 projects_
 - [Others](#others) _15 projects_
 
 ## Explanation
@@ -64,7 +65,7 @@
 	git clone https://github.com/OpenGene/fastp
 	```
 </details>
-<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥉14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
+<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥈14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
 
 - [GitHub](https://github.com/lh3/seqtk) (👨‍💻 8 · 🔀 230 · 📋 130 - 24% open · ⏱️ 04.12.2020):
 
@@ -72,12 +73,20 @@
 	git clone https://github.com/lh3/seqtk
 	```
 </details>
-<details><summary><b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥉13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.</summary>
+<details><summary><b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥈13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.</summary>
 
 - [GitHub](https://github.com/agordon/fastx_toolkit) (👨‍💻 3 · 🔀 52 · 📥 68K · 📋 18 - 38% open · ⏱️ 14.08.2017):
 
 	```
 	git clone https://github.com/agordon/fastx_toolkit
+	```
+</details>
+<details><summary><b><a href="https://github.com/OpenGene/MutScan">MutScan</a></b> (🥈13 ·  ⭐ 110 · 💤) - Detect and visualize target mutations by scanning FastQ files directly.</summary>
+
+- [GitHub](https://github.com/OpenGene/MutScan) (👨‍💻 4 · 🔀 33 · 📥 7 · 📋 10 - 30% open · ⏱️ 21.01.2020):
+
+	```
+	git clone https://github.com/OpenGene/MutScan
 	```
 </details>
 <details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160) - A quality control analysis tool for high throughput sequencing data.</summary>
@@ -94,6 +103,22 @@
 
 	```
 	git clone https://github.com/Genetalks/gtz
+	```
+</details>
+<details><summary><b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥉11 ·  ⭐ 82 · ➕) - A fast lossless FASTQ compressor with ultra-high compression ratio.</summary>
+
+- [GitHub](https://github.com/OpenGene/repaq) (👨‍💻 3 · 🔀 15 · 📋 18 - 33% open · ⏱️ 14.06.2020):
+
+	```
+	git clone https://github.com/OpenGene/repaq
+	```
+</details>
+<details><summary><b><a href="https://github.com/OpenGene/fastv">fastv</a></b> (🥉10 ·  ⭐ 68 · 🐣) - An ultra-fast tool for identification of SARS-CoV-2 and other microbes from..</summary>
+
+- [GitHub](https://github.com/OpenGene/fastv) (👨‍💻 2 · 🔀 11 · 📋 11 - 36% open · ⏱️ 29.09.2020):
+
+	```
+	git clone https://github.com/OpenGene/fastv
 	```
 </details>
 <details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43) - FASTQ compression.</summary>
@@ -234,7 +259,7 @@
 	git clone https://github.com/vcflib/vcflib
 	```
 </details>
-<details><summary><b><a href="https://github.com/brentp/cyvcf2">cyvcf2</a></b> (🥉17 ·  ⭐ 240 · ➕) - cython + htslib == fast VCF and BCF processing.</summary>
+<details><summary><b><a href="https://github.com/brentp/cyvcf2">cyvcf2</a></b> (🥉17 ·  ⭐ 240) - cython + htslib == fast VCF and BCF processing.</summary>
 
 - [GitHub](https://github.com/brentp/cyvcf2) (👨‍💻 29 · 🔀 48 · 📦 180 · 📋 140 - 20% open · ⏱️ 26.01.2021):
 
@@ -264,6 +289,14 @@
 	git clone https://github.com/ruanjue/wtdbg2
 	```
 </details>
+<details><summary><b><a href="https://github.com/aquaskyline/SOAPdenovo2">SOAPdenovo2</a></b> (🥉13 ·  ⭐ 150 · ➕) - Next generation sequencing reads de novo assembler.</summary>
+
+- [GitHub](https://github.com/aquaskyline/SOAPdenovo2) (👨‍💻 11 · 🔀 51 · 📋 60 - 1% open · ⏱️ 21.01.2021):
+
+	```
+	git clone https://github.com/aquaskyline/SOAPdenovo2
+	```
+</details>
 <details><summary><b><a href="https://github.com/dzerbino/velvet">velvet</a></b> (🥉12 ·  ⭐ 230 · 💀) - Short read de novo assembler using de Bruijn graphs.</summary>
 
 - [GitHub](https://github.com/dzerbino/velvet) (👨‍💻 15 · 🔀 84 · ⏱️ 15.08.2014):
@@ -274,7 +307,7 @@
 </details>
 <br>
 
-## Read Alignment
+## Alignment
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -558,11 +591,41 @@
 </details>
 <br>
 
+## Blast
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
+
+- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
+
+	```
+	git clone https://github.com/bbuchfink/diamond
+	```
+</details>
+<details><summary><b><a href="https://github.com/icebert/pblat">pblat</a></b> (🥉8 ·  ⭐ 32 · ➕) - parallelized blat with multi-threads support.</summary>
+
+- [GitHub](https://github.com/icebert/pblat) (👨‍💻 5 · 🔀 9 · 📋 14 - 21% open · ⏱️ 14.06.2020):
+
+	```
+	git clone https://github.com/icebert/pblat
+	```
+</details>
+<details><summary><b><a href="https://github.com/djhshih/blat">blat</a></b> (🥉6 ·  ⭐ 10 · 💤) - BLAST-Like Alignment Tool.</summary>
+
+- [GitHub](https://github.com/djhshih/blat) (🔀 5 · ⏱️ 11.01.2019):
+
+	```
+	git clone https://github.com/djhshih/blat
+	```
+</details>
+<br>
+
 ## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/lmcinnes/umap">umap</a></b> (🥇25 ·  ⭐ 4.5K · ➕) - Uniform Manifold Approximation and Projection.</summary>
+<details><summary><b><a href="https://github.com/lmcinnes/umap">umap</a></b> (🥇25 ·  ⭐ 4.5K) - Uniform Manifold Approximation and Projection.</summary>
 
 - [GitHub](https://github.com/lmcinnes/umap) (👨‍💻 70 · 🔀 470 · 📦 2.3K · 📋 430 - 47% open · ⏱️ 04.02.2021):
 
@@ -586,20 +649,12 @@
 	git clone https://github.com/bioconda/bioconda-recipes
 	```
 </details>
-<details><summary><b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥈19 ·  ⭐ 700 · ➕) - Aggregate results from bioinformatics analyses across many samples into a..</summary>
+<details><summary><b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥈19 ·  ⭐ 700) - Aggregate results from bioinformatics analyses across many samples into a..</summary>
 
 - [GitHub](https://github.com/ewels/MultiQC) (👨‍💻 140 · 🔀 350 · 📥 43 · 📦 130 · 📋 920 - 16% open · ⏱️ 03.02.2021):
 
 	```
 	git clone https://github.com/ewels/MultiQC
-	```
-</details>
-<details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥈19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
-
-- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 230K · 📋 400 - 10% open · ⏱️ 27.01.2021):
-
-	```
-	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
 <details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280) - A fast multi-threaded k-mer counter.</summary>
@@ -608,6 +663,14 @@
 
 	```
 	git clone https://github.com/gmarcais/Jellyfish
+	```
+</details>
+<details><summary><b><a href="https://github.com/Gaius-Augustus/Augustus">Augustus</a></b> (🥈16 ·  ⭐ 120 · ➕) - Genome annotation with AUGUSTUS.</summary>
+
+- [GitHub](https://github.com/Gaius-Augustus/Augustus) (👨‍💻 30 · 🔀 60 · 📥 2.5K · 📋 170 - 56% open · ⏱️ 28.01.2021):
+
+	```
+	git clone https://github.com/Gaius-Augustus/Augustus
 	```
 </details>
 <details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥉15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
@@ -626,7 +689,7 @@
 	git clone https://github.com/WGLab/Phen2Gene
 	```
 </details>
-<details><summary><b><a href="https://github.com/EddyRivasLab/hmmer">hmmer</a></b> (🥉12 ·  ⭐ 150 · ➕) - HMMER: biological sequence analysis using profile HMMs.</summary>
+<details><summary><b><a href="https://github.com/EddyRivasLab/hmmer">hmmer</a></b> (🥉12 ·  ⭐ 150) - HMMER: biological sequence analysis using profile HMMs.</summary>
 
 - [GitHub](https://github.com/EddyRivasLab/hmmer) (👨‍💻 18 · 🔀 41 · 📋 190 - 3% open · ⏱️ 27.11.2020):
 

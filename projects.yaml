@@ -32,6 +32,8 @@ categories:
     title: "MHC/HLA"
   - category: "sequence-alignment"
     title: "Sequence Alignment"
+  - category: "visualization"
+    title: "Visualization"
 
 projects:
   # sequence-alignment
@@ -217,6 +219,10 @@ projects:
     github_id: bwa-mem2/bwa-mem2
     category: ngs-alignment
     show: True
+  - name: ngmlr
+    github_id: philres/ngmlr
+    category: ngs-alignment
+    show: True
   # structural-variation
   - name: Sniffles
     github_id: fritzsedlazeck/Sniffles
@@ -262,6 +268,10 @@ projects:
   # mhc-hla
   - name: mhcflurry
     github_id: openvax/mhcflurry
+    category: mhc-hla
+    show: True
+  - name: IMGTHLA
+    github_id: ANHIG/IMGTHLA
     category: mhc-hla
     show: True
   - name: OptiType
@@ -318,6 +328,27 @@ projects:
     github_id: Illumina/SpliceAI
     category: variant-annotation
     show: True
+  # visualization
+  - name: igv
+    github_id: igvteam/igv
+    category: visualization
+    show: True 
+  - name: umap
+    github_id: lmcinnes/umap
+    category: visualization
+    show: True
+  - name: igv.js
+    github_id: igvteam/igv.js
+    category: visualization
+    show: True
+  - name: pyGenomeTracks
+    github_id: deeptools/pyGenomeTracks
+    category: visualization
+    show: True
+  - name: DnaFeaturesViewer
+    github_id: Edinburgh-Genome-Foundry/DnaFeaturesViewer
+    category: visualization
+    show: True
   # other
   - name: GTCtoVCF
     github_id: Illumina/GTCtoVCF
@@ -358,9 +389,6 @@ projects:
     show: True
   - name: hmmer
     github_id: EddyRivasLab/hmmer
-    show: True
-  - name: umap
-    github_id: lmcinnes/umap
     show: True
   - name: Augustus
     github_id: Gaius-Augustus/Augustus

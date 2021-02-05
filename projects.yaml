@@ -9,15 +9,13 @@ configuration:
 
 categories:
   - category: "fasta-fastq"
-    title: "Toolkit for FASTA/FASTQ"
+    title: "Tools for FASTA/FASTQ"
   - category: "bed-gtf-gff"
-    title: "Toolkit for BED/GTF/GFF"
+    title: "Tools for BED/GTF/GFF"
   - category: "sam-bam"
-    title: "Toolkit for SAM/BAM"
+    title: "Tools for SAM/BAM"
   - category: "vcf-bcf"
-    title: "Toolkit for VCF/BCF"
-  - category: "mhc-hla"
-    title: "MHC/HLA"
+    title: "Tools for VCF/BCF"
   - category: "assembler"
     title: "Assembler"
   - category: "read-alignment"
@@ -30,6 +28,8 @@ categories:
     title: "Structural Variation"
   - category: "msi-detection"
     title: "MSI Detection"
+  - category: "mhc-hla"
+    title: "MHC/HLA"
 
 projects:
   # msi-detection
@@ -143,6 +143,10 @@ projects:
     show: True
   - name: hap.py
     github_id: Illumina/hap.py
+    category: vcf-bcf
+    show: True
+  - name: cyvcf2
+    github_id: brentp/cyvcf2
     category: vcf-bcf
     show: True
   # read-alignment
@@ -305,4 +309,12 @@ projects:
   - name: tabix
     github_id: samtools/tabix
     show: True
-  
+  - name: MultiQC
+    github_id: ewels/MultiQC
+    show: True
+  - name: hmmer
+    github_id: EddyRivasLab/hmmer
+    show: True
+  - name: umap
+    github_id: lmcinnes/umap
+    show: True

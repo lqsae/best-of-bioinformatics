@@ -2,11 +2,8 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/Gaius-Augustus/Augustus">Augustus</a></b> (🥈16 ·  ⭐ 120 · ➕) - Genome annotation with AUGUSTUS.
-- <b><a href="https://github.com/aquaskyline/SOAPdenovo2">SOAPdenovo2</a></b> (🥉13 ·  ⭐ 150 · ➕) - Next generation sequencing reads de novo assembler.
-- <b><a href="https://github.com/OpenGene/MutScan">MutScan</a></b> (🥈13 ·  ⭐ 110 · 💤) - Detect and visualize target mutations by scanning FastQ files directly.
-- <b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥉11 ·  ⭐ 82 · ➕) - A fast lossless FASTQ compressor with ultra-high compression ratio.
-- <b><a href="https://github.com/OpenGene/fastv">fastv</a></b> (🥉10 ·  ⭐ 68 · 🐣) - An ultra-fast tool for identification of SARS-CoV-2 and other microbes from..
-- <b><a href="https://github.com/icebert/pblat">pblat</a></b> (🥉8 ·  ⭐ 32 · ➕) - parallelized blat with multi-threads support.
-- <b><a href="https://github.com/djhshih/blat">blat</a></b> (🥉6 ·  ⭐ 10 · 💤) - BLAST-Like Alignment Tool.
+- <b><a href="https://github.com/GSLBiotech/clustal-omega">clustal-omega</a></b> (🥈6 ·  ⭐ 4 · 💀) - Multiple sequence aligner for protein and DNA/RNA.
+- <b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥉5 ·  ⭐ 2 · ➕) - Tools for multiple alignments of DNA, RNA, and Proteins.
+- <b><a href="https://github.com/GSLBiotech/mafft">mafft</a></b> (🥉4 ·  ⭐ 7 · ➕) - Align multiple amino acid or nucleotide sequences.
+- <b><a href="https://github.com/GSLBiotech/muscle">muscle</a></b> (🥉3 ·  ⭐ 2 · ➕) - Multiple Sequence Comparison by Log-Expectation.
 

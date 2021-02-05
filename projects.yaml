@@ -18,8 +18,8 @@ categories:
     title: "Tools for VCF/BCF"
   - category: "assembler"
     title: "Assembler"
-  - category: "read-alignment"
-    title: "Read Alignment"
+  - category: "alignment"
+    title: "Alignment"
   - category: "variant-caller"
     title: "Variant Caller"
   - category: "variant-annotation"
@@ -30,8 +30,23 @@ categories:
     title: "MSI Detection"
   - category: "mhc-hla"
     title: "MHC/HLA"
+  - category: "blast"
+    title: "Blast"
 
 projects:
+  # blast
+  - name: diamond
+    github_id: bbuchfink/diamond
+    category: blast
+    show: True
+  - name: blat
+    github_id: djhshih/blat
+    category: blast
+    show: True
+  - name: pblat
+    github_id: icebert/pblat
+    category: blast
+    show: True
   # msi-detection
   - name: msisensor
     github_id: ding-lab/msisensor
@@ -104,6 +119,18 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
+  - name: repaq
+    github_id: OpenGene/repaq
+    category: fasta-fastq
+    show: True
+  - name: MutScan
+    github_id: OpenGene/MutScan
+    category: fasta-fastq
+    show: True
+  - name: fastv
+    github_id: OpenGene/fastv
+    category: fasta-fastq
+    show: True
   - name: Spring
     github_id: shubhamchandak94/Spring
     category: fasta-fastq
@@ -149,30 +176,30 @@ projects:
     github_id: brentp/cyvcf2
     category: vcf-bcf
     show: True
-  # read-alignment
+  # alignment
   - name: minimap2
     github_id: lh3/minimap2
-    category: read-alignment
+    category: alignment
     show: True
   - name: pbmm2
     github_id: PacificBiosciences/pbmm2
-    category: read-alignment
+    category: alignment
     show: True
   - name: blasr
     github_id: PacificBiosciences/blasr
-    category: read-alignment
+    category: alignment
     show: True
   - name: bwa
     github_id: lh3/bwa
-    category: read-alignment
+    category: alignment
     show: True
   - name: bowtie2
     github_id: BenLangmead/bowtie2
-    category: read-alignment
+    category: alignment
     show: True
   - name: bwa-mem2
     github_id: bwa-mem2/bwa-mem2
-    category: read-alignment
+    category: alignment
     show: True
   # structural-variation
   - name: Sniffles
@@ -210,6 +237,10 @@ projects:
     show: True
   - name: wtdbg2
     github_id: ruanjue/wtdbg2
+    category: assembler
+    show: True
+  - name: SOAPdenovo2
+    github_id: aquaskyline/SOAPdenovo2
     category: assembler
     show: True
   # mhc-hla
@@ -285,9 +316,6 @@ projects:
   - name: tabtk
     github_id: lh3/tabtk
     show: True
-  - name: diamond
-    github_id: bbuchfink/diamond
-    show: True
   - name: MACS
     github_id: macs3-project/MACS
     show: True
@@ -317,4 +345,7 @@ projects:
     show: True
   - name: umap
     github_id: lmcinnes/umap
+    show: True
+  - name: Augustus
+    github_id: Gaius-Augustus/Augustus
     show: True

@@ -2,9 +2,8 @@
 
 _Projects that were recently added to this best-of list._
 
-- <b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K · ➕) - Official git repository for Biopython (originally converted from CVS).
-- <b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥉13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.
-- <b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160 · ➕) - A quality control analysis tool for high throughput sequencing data.
-- <b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43 · ➕) - FASTQ compression.
-- <b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉9 ·  ⭐ 80 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.
+- <b><a href="https://github.com/lmcinnes/umap">umap</a></b> (🥇25 ·  ⭐ 4.5K · ➕) - Uniform Manifold Approximation and Projection.
+- <b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥈19 ·  ⭐ 700 · ➕) - Aggregate results from bioinformatics analyses across many samples into a..
+- <b><a href="https://github.com/brentp/cyvcf2">cyvcf2</a></b> (🥉17 ·  ⭐ 240 · ➕) - cython + htslib == fast VCF and BCF processing.
+- <b><a href="https://github.com/EddyRivasLab/hmmer">hmmer</a></b> (🥉12 ·  ⭐ 150 · ➕) - HMMER: biological sequence analysis using profile HMMs.
 

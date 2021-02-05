@@ -11,13 +11,13 @@
 - [Tools for SAM/BAM](#tools-for-sambam) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _4 projects_
 - [Assembler](#assembler) _3 projects_
-- [Alignment](#alignment) _6 projects_
+- [NGS Alignment](#ngs-alignment) _6 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
 - [MSI Detection](#msi-detection) _4 projects_
 - [MHC/HLA](#mhchla) _3 projects_
-- [Blast](#blast) _3 projects_
+- [Sequence Alignment](#sequence-alignment) _7 projects_
 - [Others](#others) _15 projects_
 
 ## Explanation
@@ -105,7 +105,7 @@
 	git clone https://github.com/Genetalks/gtz
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥉11 ·  ⭐ 82 · ➕) - A fast lossless FASTQ compressor with ultra-high compression ratio.</summary>
+<details><summary><b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥉11 ·  ⭐ 82) - A fast lossless FASTQ compressor with ultra-high compression ratio.</summary>
 
 - [GitHub](https://github.com/OpenGene/repaq) (👨‍💻 3 · 🔀 15 · 📋 18 - 33% open · ⏱️ 14.06.2020):
 
@@ -289,7 +289,7 @@
 	git clone https://github.com/ruanjue/wtdbg2
 	```
 </details>
-<details><summary><b><a href="https://github.com/aquaskyline/SOAPdenovo2">SOAPdenovo2</a></b> (🥉13 ·  ⭐ 150 · ➕) - Next generation sequencing reads de novo assembler.</summary>
+<details><summary><b><a href="https://github.com/aquaskyline/SOAPdenovo2">SOAPdenovo2</a></b> (🥉13 ·  ⭐ 150) - Next generation sequencing reads de novo assembler.</summary>
 
 - [GitHub](https://github.com/aquaskyline/SOAPdenovo2) (👨‍💻 11 · 🔀 51 · 📋 60 - 1% open · ⏱️ 21.01.2021):
 
@@ -307,7 +307,7 @@
 </details>
 <br>
 
-## Alignment
+## NGS Alignment
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -591,7 +591,7 @@
 </details>
 <br>
 
-## Blast
+## Sequence Alignment
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -603,7 +603,7 @@
 	git clone https://github.com/bbuchfink/diamond
 	```
 </details>
-<details><summary><b><a href="https://github.com/icebert/pblat">pblat</a></b> (🥉8 ·  ⭐ 32 · ➕) - parallelized blat with multi-threads support.</summary>
+<details><summary><b><a href="https://github.com/icebert/pblat">pblat</a></b> (🥈8 ·  ⭐ 32) - parallelized blat with multi-threads support.</summary>
 
 - [GitHub](https://github.com/icebert/pblat) (👨‍💻 5 · 🔀 9 · 📋 14 - 21% open · ⏱️ 14.06.2020):
 
@@ -611,12 +611,44 @@
 	git clone https://github.com/icebert/pblat
 	```
 </details>
-<details><summary><b><a href="https://github.com/djhshih/blat">blat</a></b> (🥉6 ·  ⭐ 10 · 💤) - BLAST-Like Alignment Tool.</summary>
+<details><summary><b><a href="https://github.com/djhshih/blat">blat</a></b> (🥈6 ·  ⭐ 10 · 💤) - BLAST-Like Alignment Tool.</summary>
 
 - [GitHub](https://github.com/djhshih/blat) (🔀 5 · ⏱️ 11.01.2019):
 
 	```
 	git clone https://github.com/djhshih/blat
+	```
+</details>
+<details><summary><b><a href="https://github.com/GSLBiotech/clustal-omega">clustal-omega</a></b> (🥈6 ·  ⭐ 4 · 💀) - Multiple sequence aligner for protein and DNA/RNA.</summary>
+
+- [GitHub](https://github.com/GSLBiotech/clustal-omega) (👨‍💻 2 · 🔀 1 · ⏱️ 02.01.2018):
+
+	```
+	git clone https://github.com/GSLBiotech/clustal-omega
+	```
+</details>
+<details><summary><b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥉5 ·  ⭐ 2 · ➕) - Tools for multiple alignments of DNA, RNA, and Proteins.</summary>
+
+- [GitHub](https://github.com/GSLBiotech/t-coffee) (👨‍💻 5 · ⏱️ 12.02.2020):
+
+	```
+	git clone https://github.com/GSLBiotech/t-coffee
+	```
+</details>
+<details><summary><b><a href="https://github.com/GSLBiotech/mafft">mafft</a></b> (🥉4 ·  ⭐ 7 · ➕) - Align multiple amino acid or nucleotide sequences.</summary>
+
+- [GitHub](https://github.com/GSLBiotech/mafft) (👨‍💻 2 · 🔀 3 · ⏱️ 17.09.2020):
+
+	```
+	git clone https://github.com/GSLBiotech/mafft
+	```
+</details>
+<details><summary><b><a href="https://github.com/GSLBiotech/muscle">muscle</a></b> (🥉3 ·  ⭐ 2 · ➕) - Multiple Sequence Comparison by Log-Expectation.</summary>
+
+- [GitHub](https://github.com/GSLBiotech/muscle) (👨‍💻 4 · 🔀 1 · ⏱️ 07.10.2020):
+
+	```
+	git clone https://github.com/GSLBiotech/muscle
 	```
 </details>
 <br>
@@ -665,7 +697,7 @@
 	git clone https://github.com/gmarcais/Jellyfish
 	```
 </details>
-<details><summary><b><a href="https://github.com/Gaius-Augustus/Augustus">Augustus</a></b> (🥈16 ·  ⭐ 120 · ➕) - Genome annotation with AUGUSTUS.</summary>
+<details><summary><b><a href="https://github.com/Gaius-Augustus/Augustus">Augustus</a></b> (🥈16 ·  ⭐ 120) - Genome annotation with AUGUSTUS.</summary>
 
 - [GitHub](https://github.com/Gaius-Augustus/Augustus) (👨‍💻 30 · 🔀 60 · 📥 2.5K · 📋 170 - 56% open · ⏱️ 28.01.2021):
 

@@ -11,14 +11,15 @@
 - [Tools for SAM/BAM](#tools-for-sambam) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _4 projects_
 - [Assembler](#assembler) _3 projects_
-- [NGS Alignment](#ngs-alignment) _6 projects_
+- [NGS Alignment](#ngs-alignment) _7 projects_
 - [Variant Caller](#variant-caller) _7 projects_
 - [Variant Annotation](#variant-annotation) _4 projects_
 - [Structural Variation](#structural-variation) _7 projects_
 - [MSI Detection](#msi-detection) _4 projects_
-- [MHC/HLA](#mhchla) _3 projects_
+- [MHC/HLA](#mhchla) _4 projects_
 - [Sequence Alignment](#sequence-alignment) _7 projects_
-- [Others](#others) _15 projects_
+- [Visualization](#visualization) _5 projects_
+- [Others](#others) _14 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -343,6 +344,14 @@
 	git clone https://github.com/bwa-mem2/bwa-mem2
 	```
 </details>
+<details><summary><b><a href="https://github.com/philres/ngmlr">ngmlr</a></b> (🥉15 ·  ⭐ 210 · 💤) - NGMLR is a long-read mapper designed to align PacBio or Oxford Nanopore..</summary>
+
+- [GitHub](https://github.com/philres/ngmlr) (👨‍💻 13 · 🔀 32 · 📥 3.9K · 📋 83 - 38% open · ⏱️ 11.09.2018):
+
+	```
+	git clone https://github.com/philres/ngmlr
+	```
+</details>
 <details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉13 ·  ⭐ 120) - BLASR: The PacBio long read aligner.</summary>
 
 - [GitHub](https://github.com/PacificBiosciences/blasr) (👨‍💻 19 · 🔀 76 · ⏱️ 16.12.2020):
@@ -573,12 +582,20 @@
 	git clone https://github.com/openvax/mhcflurry
 	```
 </details>
-<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥉13 ·  ⭐ 110) - Precision HLA typing from next-generation sequencing data.</summary>
+<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥈13 ·  ⭐ 110) - Precision HLA typing from next-generation sequencing data.</summary>
 
 - [GitHub](https://github.com/FRED-2/OptiType) (👨‍💻 13 · 🔀 63 · 📋 88 - 31% open · ⏱️ 15.09.2020):
 
 	```
 	git clone https://github.com/FRED-2/OptiType
+	```
+</details>
+<details><summary><b><a href="https://github.com/ANHIG/IMGTHLA">IMGTHLA</a></b> (🥉9 ·  ⭐ 81 · ➕) - Github for files currently published in the IPD-IMGT/HLA FTP Directory hosted..</summary>
+
+- [GitHub](https://github.com/ANHIG/IMGTHLA) (👨‍💻 4 · 🔀 35 · ⏱️ 04.02.2021):
+
+	```
+	git clone https://github.com/ANHIG/IMGTHLA
 	```
 </details>
 <details><summary><b><a href="https://github.com/humanlongevity/HLA">HLA</a></b> (🥉9 ·  ⭐ 67 · 💀) - xHLA: Fast and accurate HLA typing from short read sequence data.</summary>
@@ -627,7 +644,7 @@
 	git clone https://github.com/GSLBiotech/clustal-omega
 	```
 </details>
-<details><summary><b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥉5 ·  ⭐ 2 · ➕) - Tools for multiple alignments of DNA, RNA, and Proteins.</summary>
+<details><summary><b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥉5 ·  ⭐ 2) - Tools for multiple alignments of DNA, RNA, and Proteins.</summary>
 
 - [GitHub](https://github.com/GSLBiotech/t-coffee) (👨‍💻 5 · ⏱️ 12.02.2020):
 
@@ -635,7 +652,7 @@
 	git clone https://github.com/GSLBiotech/t-coffee
 	```
 </details>
-<details><summary><b><a href="https://github.com/GSLBiotech/mafft">mafft</a></b> (🥉4 ·  ⭐ 7 · ➕) - Align multiple amino acid or nucleotide sequences.</summary>
+<details><summary><b><a href="https://github.com/GSLBiotech/mafft">mafft</a></b> (🥉4 ·  ⭐ 7) - Align multiple amino acid or nucleotide sequences.</summary>
 
 - [GitHub](https://github.com/GSLBiotech/mafft) (👨‍💻 2 · 🔀 3 · ⏱️ 17.09.2020):
 
@@ -643,7 +660,7 @@
 	git clone https://github.com/GSLBiotech/mafft
 	```
 </details>
-<details><summary><b><a href="https://github.com/GSLBiotech/muscle">muscle</a></b> (🥉3 ·  ⭐ 2 · ➕) - Multiple Sequence Comparison by Log-Expectation.</summary>
+<details><summary><b><a href="https://github.com/GSLBiotech/muscle">muscle</a></b> (🥉3 ·  ⭐ 2) - Multiple Sequence Comparison by Log-Expectation.</summary>
 
 - [GitHub](https://github.com/GSLBiotech/muscle) (👨‍💻 4 · 🔀 1 · ⏱️ 07.10.2020):
 
@@ -653,7 +670,7 @@
 </details>
 <br>
 
-## Others
+## Visualization
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -665,6 +682,44 @@
 	git clone https://github.com/lmcinnes/umap
 	```
 </details>
+<details><summary><b><a href="https://github.com/igvteam/igv.js">igv.js</a></b> (🥈21 ·  ⭐ 400 · ➕) - Embeddable genomic visualization component based on the Integrative Genomics..</summary>
+
+- [GitHub](https://github.com/igvteam/igv.js) (👨‍💻 50 · 🔀 140 · 📦 84 · 📋 810 - 6% open · ⏱️ 12.01.2021):
+
+	```
+	git clone https://github.com/igvteam/igv.js
+	```
+</details>
+<details><summary><b><a href="https://github.com/igvteam/igv">igv</a></b> (🥉16 ·  ⭐ 410 · ➕) - Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for..</summary>
+
+- [GitHub](https://github.com/igvteam/igv) (👨‍💻 53 · 🔀 190 · 📋 720 - 7% open · ⏱️ 03.02.2021):
+
+	```
+	git clone https://github.com/igvteam/igv
+	```
+</details>
+<details><summary><b><a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">DnaFeaturesViewer</a></b> (🥉16 ·  ⭐ 240 · ➕) - Python library to plot DNA sequence features (e.g. from..</summary>
+
+- [GitHub](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer) (👨‍💻 5 · 🔀 43 · 📋 46 - 47% open · ⏱️ 20.09.2020):
+
+	```
+	git clone https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
+	```
+</details>
+<details><summary><b><a href="https://github.com/deeptools/pyGenomeTracks">pyGenomeTracks</a></b> (🥉15 ·  ⭐ 430 · ➕) - python module to plot beautiful and highly customizable genome..</summary>
+
+- [GitHub](https://github.com/deeptools/pyGenomeTracks) (👨‍💻 11 · 🔀 70 · 📦 4 · 📋 120 - 8% open · ⏱️ 12.11.2020):
+
+	```
+	git clone https://github.com/deeptools/pyGenomeTracks
+	```
+</details>
+<br>
+
+## Others
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
 <details><summary><b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K) - Official git repository for Biopython (originally converted from CVS).</summary>
 
 - [GitHub](https://github.com/biopython/biopython) (👨‍💻 370 · 🔀 1.2K · 📦 6.4K · 📋 1.2K - 27% open · ⏱️ 25.01.2021):
@@ -673,7 +728,7 @@
 	git clone https://github.com/biopython/biopython
 	```
 </details>
-<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥈19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
+<details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
 - [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.3K - 18% open · ⏱️ 05.02.2021):
 
@@ -681,7 +736,7 @@
 	git clone https://github.com/bioconda/bioconda-recipes
 	```
 </details>
-<details><summary><b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥈19 ·  ⭐ 700) - Aggregate results from bioinformatics analyses across many samples into a..</summary>
+<details><summary><b><a href="https://github.com/ewels/MultiQC">MultiQC</a></b> (🥇19 ·  ⭐ 700) - Aggregate results from bioinformatics analyses across many samples into a..</summary>
 
 - [GitHub](https://github.com/ewels/MultiQC) (👨‍💻 140 · 🔀 350 · 📥 43 · 📦 130 · 📋 920 - 16% open · ⏱️ 03.02.2021):
 
@@ -705,7 +760,7 @@
 	git clone https://github.com/Gaius-Augustus/Augustus
 	```
 </details>
-<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥉15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
+<details><summary><b><a href="https://github.com/macs3-project/MACS">MACS</a></b> (🥈15 ·  ⭐ 470) - MACS -- Model-based Analysis of ChIP-Seq.</summary>
 
 - [GitHub](https://github.com/macs3-project/MACS) (👨‍💻 18 · 🔀 210 · 📋 370 - 51% open · ⏱️ 09.12.2020):
 

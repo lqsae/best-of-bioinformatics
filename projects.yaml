@@ -177,6 +177,10 @@ projects:
     github_id: agordon/fastx_toolkit
     category: fasta-fastq
     show: True
+  - name: GeneFuse
+    github_id: OpenGene/GeneFuse
+    category: fasta-fastq
+    show: True
   # vcf-bcf
   - name: bcftools
     github_id: samtools/bcftools
@@ -221,6 +225,18 @@ projects:
     show: True
   - name: ngmlr
     github_id: philres/ngmlr
+    category: ngs-alignment
+    show: True
+  - name: hisat2
+    github_id: DaehwanKimLab/hisat2
+    category: ngs-alignment
+    show: True
+  - name: STAR
+    github_id: alexdobin/STAR
+    category: ngs-alignment
+    show: True
+  - name: tophat
+    github_id: DaehwanKimLab/tophat
     category: ngs-alignment
     show: True
   # structural-variation
@@ -311,6 +327,10 @@ projects:
     github_id: AstraZeneca-NGS/VarDict
     category: variant-caller
     show: True
+  - name: neusomatic
+    github_id: bioinform/neusomatic
+    category: variant-caller
+    show: True
   # variant-annotation
   - name: ensembl-vep
     github_id: Ensembl/ensembl-vep
@@ -392,4 +412,7 @@ projects:
     show: True
   - name: Augustus
     github_id: Gaius-Augustus/Augustus
+    show: True
+  - name: mutalyzer
+    github_id: mutalyzer/mutalyzer
     show: True

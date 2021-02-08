@@ -137,6 +137,14 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
+  - name: cutadapt
+    github_id: marcelm/cutadapt
+    category: fasta-fastq
+    show: True
+  - name: Jellyfish
+    github_id: gmarcais/Jellyfish
+    category: fasta-fastq
+    show: True
   - name: repaq
     github_id: OpenGene/repaq
     category: fasta-fastq
@@ -177,10 +185,6 @@ projects:
     github_id: agordon/fastx_toolkit
     category: fasta-fastq
     show: True
-  - name: GeneFuse
-    github_id: OpenGene/GeneFuse
-    category: fasta-fastq
-    show: True
   # vcf-bcf
   - name: bcftools
     github_id: samtools/bcftools
@@ -196,6 +200,10 @@ projects:
     show: True
   - name: cyvcf2
     github_id: brentp/cyvcf2
+    category: vcf-bcf
+    show: True
+  - name: vcfanno
+    github_id: brentp/vcfanno
     category: vcf-bcf
     show: True
   # ngs-alignment
@@ -266,6 +274,14 @@ projects:
     show: True
   - name: delly
     github_id: dellytools/delly
+    category: structural-variation
+    show: True
+  - name: smoove
+    github_id: brentp/smoove
+    category: structural-variation
+    show: True
+  - name: GeneFuse
+    github_id: OpenGene/GeneFuse
     category: structural-variation
     show: True
   # assembler
@@ -352,7 +368,7 @@ projects:
   - name: igv
     github_id: igvteam/igv
     category: visualization
-    show: True 
+    show: True
   - name: umap
     github_id: lmcinnes/umap
     category: visualization
@@ -394,9 +410,6 @@ projects:
     show: True
   - name: bioconda-recipes
     github_id: bioconda/bioconda-recipes
-    show: True
-  - name: Jellyfish
-    github_id: gmarcais/Jellyfish
     show: True
   - name: biopython
     github_id: biopython/biopython

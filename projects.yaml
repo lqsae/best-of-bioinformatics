@@ -429,3 +429,9 @@ projects:
   - name: mutalyzer
     github_id: mutalyzer/mutalyzer
     show: True
+  - name: kaiju
+    github_id: bioinformatics-centre/kaiju
+    show: True
+  - name: genozip
+    github_id: divonlan/genozip
+    show: True

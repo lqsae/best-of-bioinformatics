@@ -91,6 +91,18 @@ projects:
     github_id: arq5x/bedtools2
     category: bed-gtf-gff
     show: True
+  - name: gffutils
+    github_id: daler/gffutils
+    category: bed-gtf-gff
+    show: True
+  - name: pybedtools
+    github_id: daler/pybedtools
+    category: bed-gtf-gff
+    show: True
+  - name: gffread
+    github_id: gpertea/gffread
+    category: bed-gtf-gff
+    show: True
   # sam-bam
   - name: sambamba
     github_id: biod/sambamba
@@ -260,6 +272,10 @@ projects:
     github_id: Illumina/manta
     category: structural-variation
     show: True
+  - name: cuteSV
+    github_id: tjiangHIT/cuteSV
+    category: structural-variation
+    show: True
   - name: AnnotSV
     github_id: lgmgeo/AnnotSV
     category: structural-variation
@@ -287,6 +303,18 @@ projects:
   # assembler
   - name: velvet
     github_id: dzerbino/velvet
+    category: assembler
+    show: True
+  - name: canu
+    github_id: marbl/canu
+    category: assembler
+    show: True
+  - name: minia
+    github_id: GATB/minia
+    category: assembler
+    show: True
+  - name: abyss
+    github_id: bcgsc/abyss
     category: assembler
     show: True
   - name: wtdbg2
@@ -434,4 +462,10 @@ projects:
     show: True
   - name: genozip
     github_id: divonlan/genozip
+    show: True
+  - name: Liftoff
+    github_id: agshumate/Liftoff
+    show: True
+  - name: stringtie
+    github_id: gpertea/stringtie
     show: True

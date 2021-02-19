@@ -44,7 +44,7 @@
 
 <details><summary><b><a href="https://github.com/shenwei356/seqkit">seqkit</a></b> (🥇18 ·  ⭐ 600) - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in Golang.</summary>
 
-- [GitHub](https://github.com/shenwei356/seqkit) (👨‍💻 5 · 🔀 89 · 📥 43K · 📋 160 - 3% open · ⏱️ 18.02.2021):
+- [GitHub](https://github.com/shenwei356/seqkit) (👨‍💻 5 · 🔀 89 · 📥 43K · 📋 160 - 2% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/shenwei356/seqkit
@@ -76,7 +76,7 @@
 </details>
 <details><summary><b><a href="https://github.com/marcelm/cutadapt">cutadapt</a></b> (🥈15 ·  ⭐ 340) - Cutadapt removes adapter sequences from sequencing reads.</summary>
 
-- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 460 - 4% open · ⏱️ 08.02.2021):
+- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 460 - 4% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/marcelm/cutadapt
@@ -378,7 +378,7 @@
 </details>
 <details><summary><b><a href="https://github.com/bwa-mem2/bwa-mem2">bwa-mem2</a></b> (🥉15 ·  ⭐ 400) - The next version of bwa-mem.</summary>
 
-- [GitHub](https://github.com/bwa-mem2/bwa-mem2) (👨‍💻 9 · 🔀 47 · 📥 5.3K · 📋 100 - 15% open · ⏱️ 05.01.2021):
+- [GitHub](https://github.com/bwa-mem2/bwa-mem2) (👨‍💻 9 · 🔀 47 · 📥 5.3K · 📋 100 - 15% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/bwa-mem2/bwa-mem2
@@ -392,9 +392,9 @@
 	git clone https://github.com/philres/ngmlr
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉13 ·  ⭐ 120) - BLASR: The PacBio long read aligner.</summary>
+<details><summary><b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉14 ·  ⭐ 120 · 📈) - BLASR: The PacBio long read aligner.</summary>
 
-- [GitHub](https://github.com/PacificBiosciences/blasr) (👨‍💻 19 · 🔀 76 · ⏱️ 16.12.2020):
+- [GitHub](https://github.com/PacificBiosciences/blasr) (👨‍💻 19 · 🔀 76 · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/PacificBiosciences/blasr
@@ -494,7 +494,7 @@
 
 <details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250) - The Ensembl Variant Effect Predictor predicts the functional effects of..</summary>
 
-- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 94 · 📋 550 - 14% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 93 · 📋 550 - 14% open · ⏱️ 17.02.2021):
 
 	```
 	git clone https://github.com/Ensembl/ensembl-vep
@@ -570,7 +570,7 @@
 	git clone https://github.com/fritzsedlazeck/Sniffles
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGene/GeneFuse">GeneFuse</a></b> (🥉13 ·  ⭐ 67) - Gene fusion detection and visualization.</summary>
+<details><summary><b><a href="https://github.com/OpenGene/GeneFuse">GeneFuse</a></b> (🥉13 ·  ⭐ 68) - Gene fusion detection and visualization.</summary>
 
 - [GitHub](https://github.com/OpenGene/GeneFuse) (👨‍💻 3 · 🔀 45 · 📋 27 - 88% open · ⏱️ 17.09.2020):
 
@@ -580,7 +580,7 @@
 </details>
 <details><summary><b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22) - a hidden Markov model to infer simple repeats from genome sequences.</summary>
 
-- [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 9 · 🔀 12 · 📥 39 · 📋 33 - 12% open · ⏱️ 30.12.2020):
+- [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 9 · 🔀 12 · 📥 41 · 📋 34 - 14% open · ⏱️ 30.12.2020):
 
 	```
 	git clone https://github.com/WGLab/RepeatHMM
@@ -686,7 +686,7 @@
 
 <details><summary><b><a href="https://github.com/bbuchfink/diamond">diamond</a></b> (🥇19 ·  ⭐ 460) - Accelerated BLAST compatible local sequence aligner.</summary>
 
-- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 240K · 📋 400 - 10% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/bbuchfink/diamond) (👨‍💻 17 · 🔀 120 · 📥 240K · 📋 400 - 9% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/bbuchfink/diamond
@@ -764,7 +764,7 @@
 </details>
 <details><summary><b><a href="https://github.com/igvteam/igv">igv</a></b> (🥉16 ·  ⭐ 420) - Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for..</summary>
 
-- [GitHub](https://github.com/igvteam/igv) (👨‍💻 53 · 🔀 190 · 📋 740 - 7% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/igvteam/igv) (👨‍💻 53 · 🔀 190 · 📋 740 - 7% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/igvteam/igv
@@ -780,7 +780,7 @@
 </details>
 <details><summary><b><a href="https://github.com/deeptools/pyGenomeTracks">pyGenomeTracks</a></b> (🥉15 ·  ⭐ 430) - python module to plot beautiful and highly customizable genome browser..</summary>
 
-- [GitHub](https://github.com/deeptools/pyGenomeTracks) (👨‍💻 11 · 🔀 71 · 📦 4 · 📋 130 - 10% open · ⏱️ 12.11.2020):
+- [GitHub](https://github.com/deeptools/pyGenomeTracks) (👨‍💻 11 · 🔀 71 · 📦 4 · 📋 130 - 9% open · ⏱️ 12.11.2020):
 
 	```
 	git clone https://github.com/deeptools/pyGenomeTracks
@@ -802,7 +802,7 @@
 </details>
 <details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
-- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.4K - 18% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.4K - 18% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/bioconda/bioconda-recipes
@@ -832,7 +832,7 @@
 	git clone https://github.com/macs3-project/MACS
 	```
 </details>
-<details><summary><b><a href="https://github.com/bioinformatics-centre/kaiju">kaiju</a></b> (🥈14 ·  ⭐ 140 · ➕) - Fast taxonomic classification of metagenomic sequencing reads using a protein..</summary>
+<details><summary><b><a href="https://github.com/bioinformatics-centre/kaiju">kaiju</a></b> (🥈14 ·  ⭐ 140) - Fast taxonomic classification of metagenomic sequencing reads using a protein..</summary>
 
 - [GitHub](https://github.com/bioinformatics-centre/kaiju) (👨‍💻 10 · 🔀 44 · 📥 1.4K · 📋 160 - 12% open · ⏱️ 16.11.2020):
 
@@ -856,7 +856,7 @@
 	git clone https://github.com/EddyRivasLab/hmmer
 	```
 </details>
-<details><summary><b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥉11 ·  ⭐ 42 · ➕) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...),..</summary>
+<details><summary><b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥉11 ·  ⭐ 43) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...), up..</summary>
 
 - [GitHub](https://github.com/divonlan/genozip) (👨‍💻 5 · 🔀 1 · ⏱️ 16.02.2021):
 
@@ -896,7 +896,7 @@
 	git clone https://github.com/PharmGKB/PharmCAT
 	```
 </details>
-<details><summary><b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉9 ·  ⭐ 80 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.</summary>
+<details><summary><b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉9 ·  ⭐ 81 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.</summary>
 
 - [GitHub](https://github.com/samtools/tabix) (👨‍💻 4 · 🔀 37 · 📋 13 - 53% open · ⏱️ 16.12.2013):
 

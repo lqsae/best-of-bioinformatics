@@ -1,7 +1,6 @@
-## ➕ Added Projects
+## 📈 Trending Up
 
-_Projects that were recently added to this best-of list._
+_Projects that have a higher project-quality score compared to the last update. There might be a variety of reasons, such as increased downloads or code activity._
 
-- <b><a href="https://github.com/bioinformatics-centre/kaiju">kaiju</a></b> (🥈14 ·  ⭐ 140 · ➕) - Fast taxonomic classification of metagenomic sequencing reads using a protein..
-- <b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥉11 ·  ⭐ 42 · ➕) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...),..
+- <b><a href="https://github.com/PacificBiosciences/blasr">blasr</a></b> (🥉14 ·  ⭐ 120 · 📈) - BLASR: The PacBio long read aligner.
 

@@ -166,6 +166,10 @@ projects:
     github_id: samtools/samtools
     category: sam-bam-cram
     show: True
+  - name: bam-readcount
+    github_id: genome/bam-readcount
+    category: sam-bam-cram
+    show: True
   - name: htslib
     github_id: samtools/htslib
     category: sam-bam-cram

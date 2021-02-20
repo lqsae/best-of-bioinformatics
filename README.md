@@ -10,6 +10,7 @@
 - [Tools for BED/GTF/GFF](#tools-for-bedgtfgff) _5 projects_
 - [Tools for SAM/BAM/CRAM](#tools-for-sambamcram) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _5 projects_
+- [QC for FASTQ](#qc-for-fastq) _0 projects_
 - [Assembler](#assembler) _6 projects_
 - [NGS Alignment](#ngs-alignment) _10 projects_
 - [Variant Caller](#variant-caller) _9 projects_
@@ -309,6 +310,12 @@
 	git clone https://github.com/Illumina/hap.py
 	```
 </details>
+<br>
+
+## QC for FASTQ
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
 <br>
 
 ## Assembler

@@ -29,7 +29,7 @@ categories:
   - category: "variant-annotation"
     title: "Variant Annotation"
   - category: "msi-detection"
-    title: "MSI Detection"
+    title: "Microsatellite Instability"
   - category: "mhc-hla"
     title: "MHC/HLA"
   - category: "sequence-alignment"

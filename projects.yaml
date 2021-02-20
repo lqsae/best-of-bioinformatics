@@ -34,8 +34,27 @@ categories:
     title: "Sequence Alignment"
   - category: "visualization"
     title: "Visualization"
+  - category: "compression"
+    title: "Data Compression"
 
 projects:
+  # compression
+  - name: repaq
+    github_id: OpenGene/repaq
+    category: compression
+    show: True
+  - name: Spring
+    github_id: shubhamchandak94/Spring
+    category: compression
+    show: True
+  - name: gtz
+    github_id: Genetalks/gtz
+    category: compression
+    show: True
+  - name: genozip
+    github_id: divonlan/genozip
+    category: compression
+    show: True
   # sequence-alignment
   - name: diamond
     github_id: bbuchfink/diamond
@@ -161,10 +180,6 @@ projects:
     github_id: gmarcais/Jellyfish
     category: fasta-fastq
     show: True
-  - name: repaq
-    github_id: OpenGene/repaq
-    category: fasta-fastq
-    show: True
   - name: MutScan
     github_id: OpenGene/MutScan
     category: fasta-fastq
@@ -173,16 +188,8 @@ projects:
     github_id: OpenGene/fastv
     category: fasta-fastq
     show: True
-  - name: Spring
-    github_id: shubhamchandak94/Spring
-    category: fasta-fastq
-    show: True
   - name: fastp
     github_id: OpenGene/fastp
-    category: fasta-fastq
-    show: True
-  - name: gtz
-    github_id: Genetalks/gtz
     category: fasta-fastq
     show: True
   - name: seqkit
@@ -483,9 +490,6 @@ projects:
     show: True
   - name: kaiju
     github_id: bioinformatics-centre/kaiju
-    show: True
-  - name: genozip
-    github_id: divonlan/genozip
     show: True
   - name: Liftoff
     github_id: agshumate/Liftoff

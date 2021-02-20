@@ -24,10 +24,10 @@ categories:
     title: "NGS Alignment"
   - category: "variant-caller"
     title: "Variant Caller"
+  - category: "structural-variation"
+    title: "Structural Variation Caller"
   - category: "variant-annotation"
     title: "Variant Annotation"
-  - category: "structural-variation"
-    title: "Structural Variation"
   - category: "msi-detection"
     title: "MSI Detection"
   - category: "mhc-hla"
@@ -298,10 +298,6 @@ projects:
     github_id: tjiangHIT/cuteSV
     category: structural-variation
     show: True
-  - name: AnnotSV
-    github_id: lgmgeo/AnnotSV
-    category: structural-variation
-    show: True
   - name: RepeatHMM
     github_id: WGLab/RepeatHMM
     category: structural-variation
@@ -406,6 +402,10 @@ projects:
     category: variant-caller
     show: True
   # variant-annotation
+  - name: AnnotSV
+    github_id: lgmgeo/AnnotSV
+    category: variant-annotation
+    show: True
   - name: ensembl-vep
     github_id: Ensembl/ensembl-vep
     category: variant-annotation

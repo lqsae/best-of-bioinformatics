@@ -14,8 +14,8 @@
 - [Assembler](#assembler) _6 projects_
 - [NGS Alignment](#ngs-alignment) _10 projects_
 - [Variant Caller](#variant-caller) _9 projects_
-- [Variant Annotation](#variant-annotation) _5 projects_
-- [Structural Variation](#structural-variation) _12 projects_
+- [Structural Variation Caller](#structural-variation-caller) _11 projects_
+- [Variant Annotation](#variant-annotation) _6 projects_
 - [MSI Detection](#msi-detection) _4 projects_
 - [MHC/HLA](#mhchla) _5 projects_
 - [Sequence Alignment](#sequence-alignment) _7 projects_
@@ -536,53 +536,7 @@
 </details>
 <br>
 
-## Variant Annotation
-
-<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
-
-<details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250) - The Ensembl Variant Effect Predictor predicts the functional effects of..</summary>
-
-- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 93 · 📋 550 - 14% open · ⏱️ 17.02.2021):
-
-	```
-	git clone https://github.com/Ensembl/ensembl-vep
-	```
-</details>
-<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 170) - A deep learning-based tool to identify splice variants.</summary>
-
-- [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · ⏱️ 15.05.2020):
-
-	```
-	git clone https://github.com/Illumina/SpliceAI
-	```
-</details>
-<details><summary><b><a href="https://github.com/charite/jannovar">jannovar</a></b> (🥈12 ·  ⭐ 39 · 💤) - Annotation of VCF variants with functional impact and from databases..</summary>
-
-- [GitHub](https://github.com/charite/jannovar) (👨‍💻 21 · 🔀 28 · 📥 200 · 📦 1 · 📋 240 - 16% open · ⏱️ 13.11.2019):
-
-	```
-	git clone https://github.com/charite/jannovar
-	```
-</details>
-<details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 120) - </summary>
-
-- [GitHub](https://github.com/pcingola/SnpEff) (👨‍💻 19 · 🔀 52 · 📋 260 - 4% open · ⏱️ 31.01.2021):
-
-	```
-	git clone https://github.com/pcingola/SnpEff
-	```
-</details>
-<details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110) - A bioinformatics software tool for clinical interpretation of genetic variants..</summary>
-
-- [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 62 · 📋 52 - 48% open · ⏱️ 05.02.2021):
-
-	```
-	git clone https://github.com/WGLab/InterVar
-	```
-</details>
-<br>
-
-## Structural Variation
+## Structural Variation Caller
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
@@ -672,6 +626,52 @@
 
 	```
 	git clone https://github.com/PacificBiosciences/pbsv
+	```
+</details>
+<br>
+
+## Variant Annotation
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/Ensembl/ensembl-vep">ensembl-vep</a></b> (🥇17 ·  ⭐ 250) - The Ensembl Variant Effect Predictor predicts the functional effects of..</summary>
+
+- [GitHub](https://github.com/Ensembl/ensembl-vep) (👨‍💻 22 · 🔀 93 · 📋 550 - 14% open · ⏱️ 17.02.2021):
+
+	```
+	git clone https://github.com/Ensembl/ensembl-vep
+	```
+</details>
+<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 170) - A deep learning-based tool to identify splice variants.</summary>
+
+- [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · ⏱️ 15.05.2020):
+
+	```
+	git clone https://github.com/Illumina/SpliceAI
+	```
+</details>
+<details><summary><b><a href="https://github.com/charite/jannovar">jannovar</a></b> (🥈12 ·  ⭐ 39 · 💤) - Annotation of VCF variants with functional impact and from databases..</summary>
+
+- [GitHub](https://github.com/charite/jannovar) (👨‍💻 21 · 🔀 28 · 📥 200 · 📦 1 · 📋 240 - 16% open · ⏱️ 13.11.2019):
+
+	```
+	git clone https://github.com/charite/jannovar
+	```
+</details>
+<details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 120) - </summary>
+
+- [GitHub](https://github.com/pcingola/SnpEff) (👨‍💻 19 · 🔀 52 · 📋 260 - 4% open · ⏱️ 31.01.2021):
+
+	```
+	git clone https://github.com/pcingola/SnpEff
+	```
+</details>
+<details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110) - A bioinformatics software tool for clinical interpretation of genetic variants..</summary>
+
+- [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 62 · 📋 52 - 48% open · ⏱️ 05.02.2021):
+
+	```
+	git clone https://github.com/WGLab/InterVar
 	```
 </details>
 <details><summary><b><a href="https://github.com/lgmgeo/AnnotSV">AnnotSV</a></b> (🥉8 ·  ⭐ 58) - Annotation and Ranking of Structural Variation.</summary>

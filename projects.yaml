@@ -16,6 +16,8 @@ categories:
     title: "Tools for SAM/BAM/CRAM"
   - category: "vcf-bcf"
     title: "Tools for VCF/BCF"
+  - category: "qc-fastq"
+    title: "QC for FASTQ"
   - category: "assembler"
     title: "Assembler"
   - category: "ngs-alignment"
@@ -38,6 +40,27 @@ categories:
     title: "Data Compression"
 
 projects:
+  # qc-fastq
+  - name: trimmomatic
+    github_id: timflutre/trimmomatic
+    category: fasta-fastq
+    show: True
+  - name: cutadapt
+    github_id: marcelm/cutadapt
+    category: fasta-fastq
+    show: True
+  - name: fastp
+    github_id: OpenGene/fastp
+    category: fasta-fastq
+    show: True
+  - name: FastQC
+    github_id: s-andrews/FastQC
+    category: fasta-fastq
+    show: True
+  - name: fastx_toolkit
+    github_id: agordon/fastx_toolkit
+    category: fasta-fastq
+    show: True  
   # compression
   - name: repaq
     github_id: OpenGene/repaq
@@ -168,14 +191,6 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
-  - name: trimmomatic
-    github_id: timflutre/trimmomatic
-    category: fasta-fastq
-    show: True
-  - name: cutadapt
-    github_id: marcelm/cutadapt
-    category: fasta-fastq
-    show: True
   - name: Jellyfish
     github_id: gmarcais/Jellyfish
     category: fasta-fastq
@@ -188,24 +203,12 @@ projects:
     github_id: OpenGene/fastv
     category: fasta-fastq
     show: True
-  - name: fastp
-    github_id: OpenGene/fastp
-    category: fasta-fastq
-    show: True
   - name: seqkit
     github_id: shenwei356/seqkit
     category: fasta-fastq
     show: True
   - name: pyfaidx
     github_id: mdshw5/pyfaidx
-    category: fasta-fastq
-    show: True
-  - name: FastQC
-    github_id: s-andrews/FastQC
-    category: fasta-fastq
-    show: True
-  - name: fastx_toolkit
-    github_id: agordon/fastx_toolkit
     category: fasta-fastq
     show: True
   # vcf-bcf

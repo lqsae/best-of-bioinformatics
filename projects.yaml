@@ -43,23 +43,23 @@ projects:
   # qc-fastq
   - name: trimmomatic
     github_id: timflutre/trimmomatic
-    category: fasta-fastq
+    category: qc-fastq
     show: True
   - name: cutadapt
     github_id: marcelm/cutadapt
-    category: fasta-fastq
+    category: qc-fastq
     show: True
   - name: fastp
     github_id: OpenGene/fastp
-    category: fasta-fastq
+    category: qc-fastq
     show: True
   - name: FastQC
     github_id: s-andrews/FastQC
-    category: fasta-fastq
+    category: qc-fastq
     show: True
   - name: fastx_toolkit
     github_id: agordon/fastx_toolkit
-    category: fasta-fastq
+    category: qc-fastq
     show: True  
   # compression
   - name: repaq

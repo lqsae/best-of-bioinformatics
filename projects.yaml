@@ -12,8 +12,8 @@ categories:
     title: "Tools for FASTA/FASTQ"
   - category: "bed-gtf-gff"
     title: "Tools for BED/GTF/GFF"
-  - category: "sam-bam"
-    title: "Tools for SAM/BAM"
+  - category: "sam-bam-cram"
+    title: "Tools for SAM/BAM/CRAM"
   - category: "vcf-bcf"
     title: "Tools for VCF/BCF"
   - category: "assembler"
@@ -103,46 +103,46 @@ projects:
     github_id: gpertea/gffread
     category: bed-gtf-gff
     show: True
-  # sam-bam
+  # sam-bam-cram
   - name: sambamba
     github_id: biod/sambamba
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: samblaster
     github_id: GregoryFaust/samblaster
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: biobambam2
     github_id: gt1/biobambam2
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: picard
     github_id: broadinstitute/picard
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: samtools
     github_id: samtools/samtools
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: htslib
     github_id: samtools/htslib
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: hts-specs
     github_id: samtools/hts-specs
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: pysam
     github_id: pysam-developers/pysam
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: mosdepth
     github_id: brentp/mosdepth
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   - name: UMI-tools
     github_id: CGATOxford/UMI-tools
-    category: sam-bam
+    category: sam-bam-cram
     show: True
   # fasta-fastq
   - name: seqtk
@@ -272,6 +272,14 @@ projects:
     github_id: Illumina/manta
     category: structural-variation
     show: True
+  - name: pindel
+    github_id: genome/pindel
+    category: structural-variation
+    show: True
+  - name: svim
+    github_id: eldariont/svim
+    category: structural-variation
+    show: True
   - name: cuteSV
     github_id: tjiangHIT/cuteSV
     category: structural-variation
@@ -340,6 +348,10 @@ projects:
     show: True
   - name: HLA
     github_id: humanlongevity/HLA
+    category: mhc-hla
+    show: True
+  - name: NeoPredPipe
+    github_id: MathOnco/NeoPredPipe
     category: mhc-hla
     show: True
   # variant-caller
@@ -468,4 +480,7 @@ projects:
     show: True
   - name: stringtie
     github_id: gpertea/stringtie
+    show: True
+  - name: sra-tools
+    github_id: ncbi/sra-tools
     show: True

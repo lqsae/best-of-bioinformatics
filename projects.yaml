@@ -195,10 +195,6 @@ projects:
     github_id: gmarcais/Jellyfish
     category: fasta-fastq
     show: True
-  - name: MutScan
-    github_id: OpenGene/MutScan
-    category: fasta-fastq
-    show: True
   - name: fastv
     github_id: OpenGene/fastv
     category: fasta-fastq
@@ -365,6 +361,10 @@ projects:
     category: mhc-hla
     show: True
   # variant-caller
+  - name: MutScan
+    github_id: OpenGene/MutScan
+    category: variant-caller
+    show: True
   - name: deepvariant
     github_id: google/deepvariant
     category: variant-caller

@@ -6,11 +6,11 @@
 
 ## Contents
 
-- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _11 projects_
+- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _6 projects_
 - [Tools for BED/GTF/GFF](#tools-for-bedgtfgff) _5 projects_
 - [Tools for SAM/BAM/CRAM](#tools-for-sambamcram) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _5 projects_
-- [QC for FASTQ](#qc-for-fastq) _0 projects_
+- [QC for FASTQ](#qc-for-fastq) _5 projects_
 - [Assembler](#assembler) _6 projects_
 - [NGS Alignment](#ngs-alignment) _10 projects_
 - [Variant Caller](#variant-caller) _9 projects_
@@ -60,28 +60,12 @@
 	git clone https://github.com/mdshw5/pyfaidx
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥈16 ·  ⭐ 950) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
-
-- [GitHub](https://github.com/OpenGene/fastp) (👨‍💻 17 · 🔀 200 · 📋 290 - 50% open · ⏱️ 14.10.2020):
-
-	```
-	git clone https://github.com/OpenGene/fastp
-	```
-</details>
 <details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥈16 ·  ⭐ 280) - A fast multi-threaded k-mer counter.</summary>
 
 - [GitHub](https://github.com/gmarcais/Jellyfish) (👨‍💻 12 · 🔀 120 · 📥 84K · 📋 150 - 46% open · ⏱️ 05.05.2020):
 
 	```
 	git clone https://github.com/gmarcais/Jellyfish
-	```
-</details>
-<details><summary><b><a href="https://github.com/marcelm/cutadapt">cutadapt</a></b> (🥈15 ·  ⭐ 340) - Cutadapt removes adapter sequences from sequencing reads.</summary>
-
-- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 460 - 4% open · ⏱️ 18.02.2021):
-
-	```
-	git clone https://github.com/marcelm/cutadapt
 	```
 </details>
 <details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥉14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
@@ -92,14 +76,6 @@
 	git clone https://github.com/lh3/seqtk
 	```
 </details>
-<details><summary><b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥉13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.</summary>
-
-- [GitHub](https://github.com/agordon/fastx_toolkit) (👨‍💻 3 · 🔀 52 · 📥 68K · 📋 18 - 38% open · ⏱️ 14.08.2017):
-
-	```
-	git clone https://github.com/agordon/fastx_toolkit
-	```
-</details>
 <details><summary><b><a href="https://github.com/OpenGene/MutScan">MutScan</a></b> (🥉13 ·  ⭐ 110 · 💤) - Detect and visualize target mutations by scanning FastQ files directly.</summary>
 
 - [GitHub](https://github.com/OpenGene/MutScan) (👨‍💻 4 · 🔀 33 · 📥 7 · 📋 10 - 30% open · ⏱️ 21.01.2020):
@@ -108,28 +84,12 @@
 	git clone https://github.com/OpenGene/MutScan
 	```
 </details>
-<details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160) - A quality control analysis tool for high throughput sequencing data.</summary>
-
-- [GitHub](https://github.com/s-andrews/FastQC) (👨‍💻 7 · 🔀 43 · 📋 65 - 32% open · ⏱️ 13.01.2021):
-
-	```
-	git clone https://github.com/s-andrews/FastQC
-	```
-</details>
 <details><summary><b><a href="https://github.com/OpenGene/fastv">fastv</a></b> (🥉10 ·  ⭐ 68 · 🐣) - An ultra-fast tool for identification of SARS-CoV-2 and other microbes from..</summary>
 
 - [GitHub](https://github.com/OpenGene/fastv) (👨‍💻 2 · 🔀 11 · 📋 11 - 36% open · ⏱️ 29.09.2020):
 
 	```
 	git clone https://github.com/OpenGene/fastv
-	```
-</details>
-<details><summary><b><a href="https://github.com/timflutre/trimmomatic">trimmomatic</a></b> (🥉6 ·  ⭐ 98 · 💀) - Read trimming tool for Illumina NGS data.</summary>
-
-- [GitHub](https://github.com/timflutre/trimmomatic) (👨‍💻 2 · 🔀 65 · 📋 16 - 18% open · ⏱️ 10.03.2015):
-
-	```
-	git clone https://github.com/timflutre/trimmomatic
 	```
 </details>
 <br>
@@ -316,6 +276,46 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
+<details><summary><b><a href="https://github.com/OpenGene/fastp">fastp</a></b> (🥇16 ·  ⭐ 950) - An ultra-fast all-in-one FASTQ preprocessor..</summary>
+
+- [GitHub](https://github.com/OpenGene/fastp) (👨‍💻 17 · 🔀 200 · 📋 290 - 50% open · ⏱️ 14.10.2020):
+
+	```
+	git clone https://github.com/OpenGene/fastp
+	```
+</details>
+<details><summary><b><a href="https://github.com/marcelm/cutadapt">cutadapt</a></b> (🥈15 ·  ⭐ 340) - Cutadapt removes adapter sequences from sequencing reads.</summary>
+
+- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 460 - 4% open · ⏱️ 18.02.2021):
+
+	```
+	git clone https://github.com/marcelm/cutadapt
+	```
+</details>
+<details><summary><b><a href="https://github.com/agordon/fastx_toolkit">fastx_toolkit</a></b> (🥉13 ·  ⭐ 120 · 💀) - FASTA/FASTQ pre-processing programs.</summary>
+
+- [GitHub](https://github.com/agordon/fastx_toolkit) (👨‍💻 3 · 🔀 52 · 📥 68K · 📋 18 - 38% open · ⏱️ 14.08.2017):
+
+	```
+	git clone https://github.com/agordon/fastx_toolkit
+	```
+</details>
+<details><summary><b><a href="https://github.com/s-andrews/FastQC">FastQC</a></b> (🥉12 ·  ⭐ 160) - A quality control analysis tool for high throughput sequencing data.</summary>
+
+- [GitHub](https://github.com/s-andrews/FastQC) (👨‍💻 7 · 🔀 43 · 📋 65 - 32% open · ⏱️ 13.01.2021):
+
+	```
+	git clone https://github.com/s-andrews/FastQC
+	```
+</details>
+<details><summary><b><a href="https://github.com/timflutre/trimmomatic">trimmomatic</a></b> (🥉6 ·  ⭐ 98 · 💀) - Read trimming tool for Illumina NGS data.</summary>
+
+- [GitHub](https://github.com/timflutre/trimmomatic) (👨‍💻 2 · 🔀 65 · 📋 16 - 18% open · ⏱️ 10.03.2015):
+
+	```
+	git clone https://github.com/timflutre/trimmomatic
+	```
+</details>
 <br>
 
 ## Assembler

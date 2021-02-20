@@ -149,6 +149,10 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
+  - name: trimmomatic
+    github_id: timflutre/trimmomatic
+    category: fasta-fastq
+    show: True
   - name: cutadapt
     github_id: marcelm/cutadapt
     category: fasta-fastq
@@ -387,6 +391,10 @@ projects:
     github_id: bioinform/neusomatic
     category: variant-caller
     show: True
+  - name: denovogear
+    github_id: ultimatesource/denovogear
+    category: variant-caller
+    show: True
   # variant-annotation
   - name: ensembl-vep
     github_id: Ensembl/ensembl-vep
@@ -402,6 +410,10 @@ projects:
     show: True
   - name: SpliceAI
     github_id: Illumina/SpliceAI
+    category: variant-annotation
+    show: True
+  - name: jannovar
+    github_id: charite/jannovar
     category: variant-annotation
     show: True
   # visualization
@@ -483,4 +495,7 @@ projects:
     show: True
   - name: sra-tools
     github_id: ncbi/sra-tools
+    show: True
+  - name: Exomiser
+    github_id: exomiser/Exomiser
     show: True

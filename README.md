@@ -6,7 +6,7 @@
 
 ## Contents
 
-- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _14 projects_
+- [Tools for FASTA/FASTQ](#tools-for-fastafastq) _11 projects_
 - [Tools for BED/GTF/GFF](#tools-for-bedgtfgff) _5 projects_
 - [Tools for SAM/BAM/CRAM](#tools-for-sambamcram) _10 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _5 projects_
@@ -19,7 +19,8 @@
 - [MHC/HLA](#mhchla) _5 projects_
 - [Sequence Alignment](#sequence-alignment) _7 projects_
 - [Visualization](#visualization) _5 projects_
-- [Others](#others) _20 projects_
+- [Data Compression](#data-compression) _4 projects_
+- [Others](#others) _19 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -82,7 +83,7 @@
 	git clone https://github.com/marcelm/cutadapt
 	```
 </details>
-<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥈14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
+<details><summary><b><a href="https://github.com/lh3/seqtk">seqtk</a></b> (🥉14 ·  ⭐ 780) - Toolkit for processing sequences in FASTA/Q formats.</summary>
 
 - [GitHub](https://github.com/lh3/seqtk) (👨‍💻 8 · 🔀 230 · 📋 130 - 24% open · ⏱️ 04.12.2020):
 
@@ -114,36 +115,12 @@
 	git clone https://github.com/s-andrews/FastQC
 	```
 </details>
-<details><summary><b><a href="https://github.com/Genetalks/gtz">gtz</a></b> (🥉11 ·  ⭐ 140) - A high performance and compression ratio compressor for genomic data, powered by..</summary>
-
-- [GitHub](https://github.com/Genetalks/gtz) (👨‍💻 17 · 🔀 36 · 📋 29 - 31% open · ⏱️ 15.12.2020):
-
-	```
-	git clone https://github.com/Genetalks/gtz
-	```
-</details>
-<details><summary><b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥉11 ·  ⭐ 82) - A fast lossless FASTQ compressor with ultra-high compression ratio.</summary>
-
-- [GitHub](https://github.com/OpenGene/repaq) (👨‍💻 3 · 🔀 15 · 📋 18 - 33% open · ⏱️ 14.06.2020):
-
-	```
-	git clone https://github.com/OpenGene/repaq
-	```
-</details>
 <details><summary><b><a href="https://github.com/OpenGene/fastv">fastv</a></b> (🥉10 ·  ⭐ 68 · 🐣) - An ultra-fast tool for identification of SARS-CoV-2 and other microbes from..</summary>
 
 - [GitHub](https://github.com/OpenGene/fastv) (👨‍💻 2 · 🔀 11 · 📋 11 - 36% open · ⏱️ 29.09.2020):
 
 	```
 	git clone https://github.com/OpenGene/fastv
-	```
-</details>
-<details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43) - FASTQ compression.</summary>
-
-- [GitHub](https://github.com/shubhamchandak94/Spring) (🔀 14 · ⏱️ 14.11.2020):
-
-	```
-	git clone https://github.com/shubhamchandak94/Spring
 	```
 </details>
 <details><summary><b><a href="https://github.com/timflutre/trimmomatic">trimmomatic</a></b> (🥉6 ·  ⭐ 98 · 💀) - Read trimming tool for Illumina NGS data.</summary>
@@ -526,7 +503,7 @@
 	git clone https://github.com/bioinform/neusomatic
 	```
 </details>
-<details><summary><b><a href="https://github.com/ultimatesource/denovogear">denovogear</a></b> (🥉13 ·  ⭐ 39 · ➕) - A program to detect denovo-variants using next-generation sequencing data.</summary>
+<details><summary><b><a href="https://github.com/ultimatesource/denovogear">denovogear</a></b> (🥉13 ·  ⭐ 39) - A program to detect denovo-variants using next-generation sequencing data.</summary>
 
 - [GitHub](https://github.com/ultimatesource/denovogear) (👨‍💻 25 · 🔀 23 · 📥 910 · 📋 160 - 28% open · ⏱️ 30.03.2020):
 
@@ -892,6 +869,44 @@
 </details>
 <br>
 
+## Data Compression
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/Genetalks/gtz">gtz</a></b> (🥇11 ·  ⭐ 140) - A high performance and compression ratio compressor for genomic data, powered by..</summary>
+
+- [GitHub](https://github.com/Genetalks/gtz) (👨‍💻 17 · 🔀 36 · 📋 29 - 31% open · ⏱️ 15.12.2020):
+
+	```
+	git clone https://github.com/Genetalks/gtz
+	```
+</details>
+<details><summary><b><a href="https://github.com/OpenGene/repaq">repaq</a></b> (🥇11 ·  ⭐ 82) - A fast lossless FASTQ compressor with ultra-high compression ratio.</summary>
+
+- [GitHub](https://github.com/OpenGene/repaq) (👨‍💻 3 · 🔀 15 · 📋 18 - 33% open · ⏱️ 14.06.2020):
+
+	```
+	git clone https://github.com/OpenGene/repaq
+	```
+</details>
+<details><summary><b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥇11 ·  ⭐ 44) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...), up..</summary>
+
+- [GitHub](https://github.com/divonlan/genozip) (👨‍💻 5 · 🔀 1 · ⏱️ 20.02.2021):
+
+	```
+	git clone https://github.com/divonlan/genozip
+	```
+</details>
+<details><summary><b><a href="https://github.com/shubhamchandak94/Spring">Spring</a></b> (🥉10 ·  ⭐ 43) - FASTQ compression.</summary>
+
+- [GitHub](https://github.com/shubhamchandak94/Spring) (🔀 14 · ⏱️ 14.11.2020):
+
+	```
+	git clone https://github.com/shubhamchandak94/Spring
+	```
+</details>
+<br>
+
 ## Others
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
@@ -990,14 +1005,6 @@
 
 	```
 	git clone https://github.com/EddyRivasLab/hmmer
-	```
-</details>
-<details><summary><b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥉11 ·  ⭐ 44) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...), up..</summary>
-
-- [GitHub](https://github.com/divonlan/genozip) (👨‍💻 5 · 🔀 1 · ⏱️ 20.02.2021):
-
-	```
-	git clone https://github.com/divonlan/genozip
 	```
 </details>
 <details><summary><b><a href="https://github.com/Illumina/GTCtoVCF">GTCtoVCF</a></b> (🥉11 ·  ⭐ 25) - Script to convert GTC/BPM files to VCF.</summary>

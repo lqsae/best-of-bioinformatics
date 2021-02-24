@@ -509,3 +509,6 @@ projects:
   - name: UMI-tools
     github_id: CGATOxford/UMI-tools
     show: True
+  - name: containers
+    github_id: BioContainers/containers
+    show: True

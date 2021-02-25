@@ -516,3 +516,6 @@ projects:
   - name: containers
     github_id: BioContainers/containers
     show: True
+  - name: MFEprimer-3.0
+    github_id: quwubin/MFEprimer-3.0
+    show: True

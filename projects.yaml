@@ -282,6 +282,10 @@ projects:
     github_id: Illumina/manta
     category: structural-variation
     show: True
+  - name: ExpansionHunterDenovo
+    github_id: Illumina/ExpansionHunterDenovo
+    category: structural-variation
+    show: True
   - name: pindel
     github_id: genome/pindel
     category: structural-variation

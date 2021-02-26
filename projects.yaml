@@ -174,10 +174,6 @@ projects:
     github_id: samtools/htslib
     category: sam-bam-cram
     show: True
-  - name: hts-specs
-    github_id: samtools/hts-specs
-    category: sam-bam-cram
-    show: True
   - name: pysam
     github_id: pysam-developers/pysam
     category: sam-bam-cram

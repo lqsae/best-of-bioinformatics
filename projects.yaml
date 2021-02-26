@@ -377,6 +377,10 @@ projects:
     github_id: broadinstitute/gatk
     category: variant-caller
     show: True
+  - name: whatshap
+    github_id: whatshap/whatshap
+    category: variant-caller
+    show: True
   - name: strelka
     github_id: Illumina/strelka
     category: variant-caller

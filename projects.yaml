@@ -519,3 +519,6 @@ projects:
   - name: MFEprimer-3.0
     github_id: quwubin/MFEprimer-3.0
     show: True
+  - name: SUPPA
+    github_id: comprna/SUPPA
+    show: True

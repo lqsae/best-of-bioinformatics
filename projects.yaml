@@ -38,8 +38,23 @@ categories:
     title: "Visualization"
   - category: "compression"
     title: "Data Compression"
+  - category: "primer-designing"
+    title: "Primer Designing"
 
 projects:
+  # primer-designing
+  - name: primer3
+    github_id: primer3-org/primer3
+    category: primer-designing
+    show: True  
+  - name: primer3-py
+    github_id: libnano/primer3-py
+    category: primer-designing
+    show: True
+  - name: MFEprimer-3.0
+    github_id: quwubin/MFEprimer-3.0
+    category: primer-designing
+    show: True  
   # qc-fastq
   - name: trimmomatic
     github_id: timflutre/trimmomatic
@@ -519,9 +534,6 @@ projects:
     show: True
   - name: containers
     github_id: BioContainers/containers
-    show: True
-  - name: MFEprimer-3.0
-    github_id: quwubin/MFEprimer-3.0
     show: True
   - name: SUPPA
     github_id: comprna/SUPPA
